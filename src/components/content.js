@@ -22,13 +22,13 @@ function Content() {
     addDataToSection(allThemeParks, "FastPass+", "test", 0);
 
     
-    var mk = createSection("Magic Kingdom", "2020-07-11 09:00", "");
+    var mk = createSection("Magic Kingdom", "2020-07-11 09:00-04:00", "");
     
-    var ak = createSection("Animal Kingdom", "2020-07-11 08:00", "");
+    var ak = createSection("Animal Kingdom", "2020-07-11 08:00-04:00", "");
     
-    var ep = createSection("Epcot", "2020-07-15 11:00", "");
+    var ep = createSection("Epcot", "2020-07-15 11:00-04:00", "");
     
-    var hs = createSection("Hollywood Studios", "2020-07-15 10:00", "");
+    var hs = createSection("Hollywood Studios", "2020-07-15 10:00-04:00", "");
 
     return {
         themeParks : [allThemeParks, mk, ak, ep, hs],
