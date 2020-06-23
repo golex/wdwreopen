@@ -1,0 +1,14 @@
+{
+    "allThemeParks" : {
+        "title": "All Theme Parks",
+        "reopenDate": "",
+        "content" : [
+            {
+                "name" : "FastPass+",
+                "icon" : "test.svg",
+                "status" : "0",
+                "category" : ""
+            }
+        ]
+    }
+}
