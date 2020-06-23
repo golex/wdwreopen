@@ -1,11 +1,15 @@
 import PropTypes from "prop-types";
 import React from "react";
+import moment from 'moment';
 
+// Components
 //import SEO from "../components/seo";
+import Content from '../components/content'
+import CountdownLabel from '../components/countdownlabel'
 
+// Icons
 import mkIllustration from "../images/noun_magic kingdom park_3017446.svg";
 import {GiTicket} from 'react-icons/gi';
-import Content from '../components/content'
 
 function RenderSectionHeader({name}) {
     return (
@@ -17,16 +21,43 @@ RenderSectionHeader.propTypes = {
     name: PropTypes.string
 }
 
-function RenderSectionCard({section, key}) {
+function RenderSectionCardStatus({reopenDate}) {
+    if(reopenDate.isValid()) {
+        const currentDate = moment();
+        const isOpen =  currentDate.isAfter(reopenDate);
+        if(isOpen) {
+            return (
+                <div className="text-green-600 text-lg font-bold tracking-wide">Open</div>
+            )
+        }
+        else
+        {
+            return (
+                <div className="text-red-600 text-lg font-bold tracking-wide">Closed</div>
+            )
+        }
+    } else {
+        return null;
+    }
+}
+
+RenderSectionCardStatus.propTypes = {
+    reopenDate: PropTypes.object,
+}
+
+function RenderSectionCard({section}) {
+    const reopenDate = moment(section.reopenDate);
+    const currentDate = moment();
+    const isOver =  currentDate.isAfter(reopenDate);
     return (
         <div className="bg-white shadow rounded-lg mb-6">
             <div className="px-3 py-4 border-b border-gray-200 sm:px-6">
                 <div className="flex justify-between items-center">
                     <div>
                         <h3 className="text-lg leading-6 font-medium text-gray-900 tracking-wide">{section.title}</h3>
-                        <div className="mt-1 text-sm text-gray-600">Reopens in 20 days, 10 hours, 5 minutes</div>
+                        <CountdownLabel targetTime={reopenDate}/>
                     </div>
-                    <div className="text-red-600 text-lg font-bold tracking-wide">Closed</div>
+                    <RenderSectionCardStatus reopenDate={reopenDate}/>
                 </div>
                 
             </div>
@@ -118,7 +149,6 @@ function RenderSectionCard({section, key}) {
 
 RenderSectionCard.propTypes = {
     section: PropTypes.object,
-    key: PropTypes.number
 }
 
 function Info() {
