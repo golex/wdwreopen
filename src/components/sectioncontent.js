@@ -6,17 +6,22 @@ import '../css/custom.css';
 
 // Icons
 import {GiTicket} from 'react-icons/gi';
+import IconPicker from "./iconpicker";
 
 const openStatusMappings = [
     {css: "wdw-item-closed", name: "Closed"},
     {css: "wdw-item-open", name:"Open"},
     {css: "wdw-item-unknown", name:"Unknown"},
+    {css: "wdw-item-closed", name:"Suspended"},
+    {css: "wdw-item-closed", name:"Required"},
 ];
 
 const closedStatusMappings = [
-    {css: "wdw-item-closed", name: "Expected closed"},
-    {css: "wdw-item-open", name:"Expected open"},
+    {css: "wdw-item-closed", name: "Closed"},
+    {css: "wdw-item-open", name:"Confirmed"},
     {css: "wdw-item-unknown", name:"Unknown"},
+    {css: "wdw-item-closed", name:"Suspended"},
+    {css: "wdw-item-closed", name:"Required"},
 ];
 
 function renderSectionTabList(content) {
@@ -38,13 +43,13 @@ function renderSectionItemList(items, isOpen) {
                     {items.map((item, index) => (
 
                         <tr key={index} className={statusMappings[item.status].css}>
-                            <td className="w-12 p-1 font-medium">
-                                <GiTicket className="w-8 h-8 fill-current"/>
+                            <td className="w-8 md:w-12 p-1 font-medium">
+                                <IconPicker name={item.icon}/>
                             </td>
                             <td className="p-1 font-medium">
                                 {item.name}
                             </td>
-                            <td className="p-1 font-normal">
+                            <td className="w-20 md:w-56 p-1 font-normal">
                                 {statusMappings[item.status].name}
                             </td>
                         </tr>
@@ -63,7 +68,7 @@ function SectionContent({content, isOpen}) {
                 <Tabs selectedTabClassName="wdw-tabs-selected"> 
                     {renderSectionTabList(content)}
                     {Object.keys(content).map((category) => (
-                        <TabPanel key="category">
+                        <TabPanel key={category}>
                             {renderSectionItemList(content[category], isOpen)}
                         </TabPanel>
                     ))}

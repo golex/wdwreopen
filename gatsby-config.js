@@ -5,23 +5,24 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Is Disney World Open Yet?`,
+    description: `Quick reference for the current reopen status for Walt Disney World in Orlando, FL`,
+    author: `@golex`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-svgr`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-tailwind`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: fullConfig.theme.colors.white,
-        theme_color: fullConfig.theme.colors.teal["400"],
+        background_color: fullConfig.theme.colors.gray["100"],
+        theme_color: fullConfig.theme.colors.indigo["600"],
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
+        icon: `src/images/favicon.png`,
       },
     },
     {
@@ -37,5 +38,32 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-34610497-2",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        // Defers execution of google analytics script after page load
+        defer: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-build-date`,
+      options: {
+        formatAsDateString: true, // boolean, defaults to true - if false API will return unformatted string from new Date()
+        formatting: {
+          format: 'MMMM D, YYYY at h:mmA [CST]', // string, defaults to "MM/DD/YYYY" - pass in any acceptable date-and-time format
+          utc: false, // boolean, defaults to false - output time as UTC or not, following date-and-time API
+        },
+      },
+    },
   ],
 };
