@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useState } from "react";
 import moment from "moment";
 
 // Components
 import CountdownLabel from '../components/countdownlabel'
 import SectionContent from '../components/sectioncontent'
 import IconPicker from "./iconpicker";
+import { Collapse } from "@blueprintjs/core";
 
 function RenderSectionCardStatus({reopenDate}) {
     if(reopenDate.isValid()) {
@@ -31,10 +32,39 @@ RenderSectionCardStatus.propTypes = {
     reopenDate: PropTypes.object,
 }
 
+function RenderSectionCardCollapsible({alwaysVisible, children}) {
+    const [isExpanded, toggleExpansion] = useState(false);
+    const labelName = isExpanded ? "Close" : "Details";
+    const iconName = isExpanded ? "up" : "down";
+    if(alwaysVisible) {
+        return (
+            <div>{children}</div>
+        );
+    } else {
+        return (
+            <div className="flex flex-col">
+                <Collapse isOpen={isExpanded}>
+                    {children}
+                </Collapse>
+                <button className="flex items-center justify-center px-3 py-2 text-indigo-700 font-medium text-sm border-t border-gray-200" onClick={() => toggleExpansion(!isExpanded)}>
+                    {labelName}
+                    <IconPicker name={iconName} className = "ml-1 w-5 h-5 fill-current"/>
+                </button>
+            </div>
+        );
+    }
+}
+
+RenderSectionCardCollapsible.propTypes = {
+    alwaysVisible : PropTypes.bool,
+    children : PropTypes.element,
+}
+
 function SectionCard({section}) {
     const reopenDate = moment(section.reopenDate);
     const currentDate = moment();
     const isOpen = reopenDate.isValid() ? currentDate.isAfter(reopenDate) : true;
+    const alwaysVisibleContent = !section.icon || Object.keys(section.content).length == 0;
     return (
         <div className="bg-white shadow rounded-lg mb-6">
             <div className="px-3 py-4 border-b border-gray-200 sm:px-6">
@@ -48,9 +78,10 @@ function SectionCard({section}) {
                     </div>
                     <RenderSectionCardStatus reopenDate={reopenDate}/>
                 </div>
-                
             </div>
-            <SectionContent content={section.content} isOpen={isOpen}/>
+            <RenderSectionCardCollapsible alwaysVisible={alwaysVisibleContent}>
+                <SectionContent content={section.content} isOpen={isOpen}/>
+            </RenderSectionCardCollapsible>
         </div>
     )
 }

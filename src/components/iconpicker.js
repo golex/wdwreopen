@@ -8,7 +8,7 @@ import akIllustration from "../images/noun_scar_1308380.svg";
 import epIllustration from "../images/noun_Future Earth_63078.svg";
 import hsIllustration from "../images/noun_Wizard's Hat_200109.svg";
 import {GiTicket, GiCalendar, GiFireworkRocket, GiCauldron, GiShop, GiExitDoor, GiVillage, GiBed} from 'react-icons/gi';
-import {RiMickeyLine, RiRestaurantLine, RiMapPinLine, RiExternalLinkLine} from 'react-icons/ri';
+import {RiMickeyLine, RiRestaurantLine, RiMapPinLine, RiExternalLinkLine, RiArrowDownSLine, RiArrowUpSLine} from 'react-icons/ri';
 import {FaShoppingBag} from 'react-icons/fa';
 import {BsClockHistory} from 'react-icons/bs';
 import {ReactComponent as MaskIcon} from '../images/noun_mask_3399244.svg';
@@ -125,7 +125,15 @@ function IconPicker({name, className}) {
         case "hotel":
             return (
                 <GiBed className={className}/>
-            )               
+            )     
+        case "up":
+            return (
+                <RiArrowUpSLine className={className}/>
+            )        
+        case "down":
+            return (
+                <RiArrowDownSLine className={className}/>
+            )                  
     }
     return null;
 };

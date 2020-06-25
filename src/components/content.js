@@ -42,6 +42,7 @@ function addResort(list, name, reopenDate, icon) {
     }
     var resort = new Section(name, reopenDate, icon);
     list.push(resort);
+    return resort;
 }
 
 function Content() {
@@ -467,44 +468,130 @@ function Content() {
     var deluxeResorts = [];
     var dvcResorts = [];
 
-// Value
-addResort(valueResorts, "Disney's All-Star Movies Resort", "2021-01-01 09:00-04:00");
-addResort(valueResorts, "Disney's All-Star Music Resort", "2021-01-01 09:00-04:00");
-addResort(valueResorts, "Disney's All-Star Sports Resort", "2021-01-01 09:00-04:00");
-addResort(valueResorts, "Disney's Art of Animation Resort", "2020-08-12 09:00-04:00");
-addResort(valueResorts, "Disney's Pop Century Resort", "2020-07-10 09:00-04:00");
-addResort(valueResorts, "The Campsites at Disney's Fort Wilderness Resort", "2021-01-01 09:00-04:00");
-//Moderate:
+    // Value
+    addResort(valueResorts, "Disney's All-Star Movies Resort", "2021-01-01 09:00-04:00");
+    addResort(valueResorts, "Disney's All-Star Music Resort", "2021-01-01 09:00-04:00");
+    addResort(valueResorts, "Disney's All-Star Sports Resort", "2021-01-01 09:00-04:00");
+    addResort(valueResorts, "Disney's Art of Animation Resort", "2020-08-12 09:00-04:00");
+    addResort(valueResorts, "Disney's Pop Century Resort", "2020-07-10 09:00-04:00");
+    var fwResort = addResort(valueResorts, "The Campsites at Disney's Fort Wilderness Resort", "2020-06-22 09:00-04:00");
+    //Moderate:
 
-addResort(moderateResorts, "Disney's Caribbean Beach Resort", "2020-07-29 09:00-04:00");
-addResort(moderateResorts, "Disney's Coronado Springs Resort", "2020-10-14 09:00-04:00");
-addResort(moderateResorts, "Disney's Port Orleans Resort - French Quarter", "2021-01-01 09:00-04:00");
-addResort(moderateResorts, "Disney's Port Orleans Resort - Riverside", "2021-01-01 09:00-04:00");
-addResort(moderateResorts, "The Cabins at Disney's Fort Wilderness Resort", "2021-01-01 09:00-04:00");
-//Deluxe:
+    addResort(moderateResorts, "Disney's Caribbean Beach Resort", "2020-07-29 09:00-04:00");
+    addResort(moderateResorts, "Disney's Coronado Springs Resort", "2020-10-14 09:00-04:00");
+    addResort(moderateResorts, "Disney's Port Orleans Resort - French Quarter", "2021-01-01 09:00-04:00");
+    addResort(moderateResorts, "Disney's Port Orleans Resort - Riverside", "2021-01-01 09:00-04:00");
+    var fwcResort = addResort(moderateResorts, "The Cabins at Disney's Fort Wilderness Resort", "2020-06-22 09:00-04:00");
+    //Deluxe:
 
-addResort(deluxeResorts, "Disney's Animal Kingdom Lodge", "2021-01-01 09:00-04:00");
-addResort(deluxeResorts, "Disney's Beach Club Resort", "2020-08-24 09:00-04:00");
-addResort(deluxeResorts, "Disney's BoardWalk Inn", "2020-10-01 09:00-04:00");
-addResort(deluxeResorts, "Disney's Contemporary Resort", "2020-07-10 09:00-04:00");
-addResort(deluxeResorts, "Disney's Grand Floridian Resort & Spa", "2020-09-21 09:00-04:00");
-addResort(deluxeResorts, "Disney's Polynesian Village Resort", "2020-08-12 09:00-04:00");
-addResort(deluxeResorts, "Disney's Wilderness Lodge", "2021-01-01 09:00-04:00");
-addResort(deluxeResorts, "Disney's Yacht Club Resort", "2020-08-24 09:00-04:00");
-//DVC:
+    addResort(deluxeResorts, "Disney's Animal Kingdom Lodge", "2021-01-01 09:00-04:00");
+    addResort(deluxeResorts, "Disney's Beach Club Resort", "2020-08-24 09:00-04:00");
+    addResort(deluxeResorts, "Disney's BoardWalk Inn", "2020-10-01 09:00-04:00");
+    addResort(deluxeResorts, "Disney's Contemporary Resort", "2020-07-10 09:00-04:00");
+    addResort(deluxeResorts, "Disney's Grand Floridian Resort & Spa", "2020-09-21 09:00-04:00");
+    addResort(deluxeResorts, "Disney's Polynesian Village Resort", "2020-08-12 09:00-04:00");
+    addResort(deluxeResorts, "Disney's Wilderness Lodge", "2021-01-01 09:00-04:00");
+    addResort(deluxeResorts, "Disney's Yacht Club Resort", "2020-08-24 09:00-04:00");
 
-addResort(dvcResorts, "Bay Lake Tower at Disney's Contemporary Resort", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "Boulder Ridge Villas at Disney's Wilderness Lodge", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "Copper Creek Villas & Cabins at Disney's Wilderness Lodge", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "Disney's Animal Kingdom Villas - Jambo House", "2020-07-10 09:00-04:00", "village");
-addResort(dvcResorts, "Disney's Animal Kingdom Villas - Kidani Village", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "Disney's Beach Club Villas", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "Disney's BoardWalk Villas", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "Disney's Old Key West Resort", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "Disney's Polynesian Villas & Bungalows", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "Disney’s Riviera Resort", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "Disney's Saratoga Springs Resort & Spa", "2020-06-22 09:00-04:00", "village");
-addResort(dvcResorts, "The Villas at Disney's Grand Floridian Resort & Spa", "2020-06-22 09:00-04:00", "village");
+    //DVC:
+    var bltResort = addResort(dvcResorts, "Bay Lake Tower at Disney's Contemporary Resort", "2020-06-22 09:00-04:00", "village");
+    var brResort = addResort(dvcResorts, "Boulder Ridge Villas at Disney's Wilderness Lodge", "2020-06-22 09:00-04:00", "village");
+    var ccResort = addResort(dvcResorts, "Copper Creek Villas & Cabins at Disney's Wilderness Lodge", "2020-06-22 09:00-04:00", "village");
+    addResort(dvcResorts, "Disney's Animal Kingdom Villas - Jambo House", "2021-01-01 09:00-04:00", "village");
+    var akkResort = addResort(dvcResorts, "Disney's Animal Kingdom Villas - Kidani Village", "2020-06-22 09:00-04:00", "village");
+    var bcvResort = addResort(dvcResorts, "Disney's Beach Club Villas", "2020-06-22 09:00-04:00", "village");
+    var bwvResort = addResort(dvcResorts, "Disney's BoardWalk Villas", "2020-06-22 09:00-04:00", "village");
+    var okwResort = addResort(dvcResorts, "Disney's Old Key West Resort", "2020-06-22 09:00-04:00", "village");
+    var pvbResort = addResort(dvcResorts, "Disney's Polynesian Villas & Bungalows", "2020-06-22 09:00-04:00", "village");
+    var rivResort = addResort(dvcResorts, "Disney’s Riviera Resort", "2020-06-22 09:00-04:00", "village");
+    var ssrResort = addResort(dvcResorts, "Disney's Saratoga Springs Resort & Spa", "2020-06-22 09:00-04:00", "village");
+    var gfvResort = addResort(dvcResorts, "The Villas at Disney's Grand Floridian Resort & Spa", "2020-06-22 09:00-04:00", "village");
+
+    fwResort.addItem("Dining", "P&J's Southern Takeout", "food", 1);
+    fwResort.addItem("Dining", "Meadow Snack Bar", "food", 1);
+    fwResort.addItem("Dining", "Crockett’s Tavern", "food", 1);
+    fwcResort.addItem("Dining", "P&J's Southern Takeout", "food", 1);
+    fwcResort.addItem("Dining", "Meadow Snack Bar", "food", 1);
+    fwcResort.addItem("Dining", "Crockett’s Tavern", "food", 1);
+    
+    bltResort.addItem("Dining", "The Wave… of American Flavors ", "food", 1);
+    bltResort.addItem("Dining", "The Wave Lounge", "food", 1);
+    bltResort.addItem("Dining", "Contempo Café", "food", 1);
+    bltResort.addItem("Dining", "Cove Bar", "food", 1);
+
+    brResort.addItem("Dining", "Whispering Canyon Cafe", "food", 1);
+    brResort.addItem("Dining", "Roaring Fork", "food", 1);
+    brResort.addItem("Dining", "Geyser Point Bar & Grill", "food", 1);
+    ccResort.addItem("Dining", "Whispering Canyon Cafe", "food", 1);
+    ccResort.addItem("Dining", "Roaring Fork", "food", 1);
+    ccResort.addItem("Dining", "Geyser Point Bar & Grill", "food", 1);
+
+    akkResort.addItem("Dining", "Sanaa", "food", 1);
+    akkResort.addItem("Dining", "Kidani Breakfast at Sanaa", "food", 1);
+    akkResort.addItem("Dining", "Sanaa Lounge", "food", 1);
+    akkResort.addItem("Dining", "Maji Pool Bar", "food", 1);
+
+    bcvResort.addItem("Dining", "Beaches and Cream Soda Shop", "food", 1);
+    bcvResort.addItem("Dining", "Beach Club Marketplace", "food", 1);
+    bcvResort.addItem("Dining", "Martha’s Vineyard", "food", 1);
+
+    bwvResort.addItem("Dining", "Trattoria al Forno (excludes Character Dining)", "food", 1);
+    bwvResort.addItem("Dining", "Pizza Window", "food", 1);
+    bwvResort.addItem("Dining", "BoardWalk Bakery", "food", 1);
+    bwvResort.addItem("Dining", "Leaping Horse Libations", "food", 1);
+    bwvResort.addItem("Dining", "AbracadaBar", "food", 1);
+
+    okwResort.addItem("Dining", "Olivia’s Café", "food", 1);
+    okwResort.addItem("Dining", "Good's Food to Go", "food", 1);
+    okwResort.addItem("Dining", "Gurgling Suitcase", "food", 1);
+
+    pvbResort.addItem("Dining", "Kona Cafe", "food", 1);
+    pvbResort.addItem("Dining", "Capt. Cook's", "food", 1);
+    pvbResort.addItem("Dining", "Pineapple Lanai", "food", 1);
+    pvbResort.addItem("Dining", "Barefoot Pool Bar", "food", 1);
+
+    rivResort.addItem("Dining", "Topolino’s Terrace (includes modified Character Dining)", "food", 1);
+    rivResort.addItem("Dining", "Primo Piatto", "food", 1);
+    rivResort.addItem("Dining", "Le Petit Café", "food", 1);
+    rivResort.addItem("Dining", "Bar Riva", "food", 1);
+
+    ssrResort.addItem("Dining", "The Artist’s Palette", "food", 1);
+    ssrResort.addItem("Dining", "The Paddock Grill", "food", 1);
+    ssrResort.addItem("Dining", "On the Rocks Pool Bar", "food", 1);
+
+    gfvResort.addItem("Dining", "Grand Floridian Cafe", "food", 1);
+    gfvResort.addItem("Dining", "Gasparilla Island Grill", "food", 1);
+    gfvResort.addItem("Dining", "Enchanted Rose", "food", 1);
+    gfvResort.addItem("Dining", "Beaches Pool Bar & Grill", "food", 1);
+
+    fwResort.addItem("Shopping", "Settlement Trading Post", "shop", 1);
+    fwResort.addItem("Shopping", "Meadow Trading Post", "shop", 1);
+    fwcResort.addItem("Shopping", "Settlement Trading Post", "shop", 1);
+    fwcResort.addItem("Shopping", "Meadow Trading Post", "shop", 1);
+
+    bltResort.addItem("Shopping", "Bayview Gifts", "shop", 1);
+    bltResort.addItem("Shopping", "Fantasia Market ", "shop", 1);
+
+    brResort.addItem("Shopping", "Wilderness Mercantile", "shop", 1);
+    ccResort.addItem("Shopping", "Wilderness Mercantile", "shop", 1);
+
+    akkResort.addItem("Shopping", "Johari Treasures", "shop", 1);
+
+    bcvResort.addItem("Shopping", "Beach Club Marketplace", "shop", 1);
+
+    bwvResort.addItem("Shopping", "Screen Door General Store", "shop", 1);
+
+    okwResort.addItem("Shopping", "Conch Flats General Store", "shop", 1);
+
+    pvbResort.addItem("Shopping", "Moana Mercantile", "shop", 1);
+    pvbResort.addItem("Shopping", "Bou-tiki", "shop", 1);
+
+    rivResort.addItem("Shopping", "La Boutique", "shop", 1);
+
+    ssrResort.addItem("Shopping", "Artist’s Palette", "shop", 1);
+
+    gfvResort.addItem("Shopping", "M. Mouse Mercantile", "shop", 1);
+    gfvResort.addItem("Shopping", "Sandy Cove Gifts and Sundries", "shop", 1);
 
 
     var references = new Section("References", "", "");

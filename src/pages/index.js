@@ -41,19 +41,19 @@ function Info() {
                 {content.themeParks.map((section, index) => (
                     <SectionCard section={section} key={index}/>
                 ))}
-                <SectionHeader name="Value Resorts" info="Dining and shopping information will be added soon"/>
+                <SectionHeader name="Value Resorts"/>
                 {content.resorts[0].map((section, index) => (
                     <SectionCard section={section} key={index}/>
                 ))}
-                <SectionHeader name="Moderate Resorts" info="Dining and shopping information will be added soon"/>
+                <SectionHeader name="Moderate Resorts"/>
                 {content.resorts[1].map((section, index) => (
                     <SectionCard section={section} key={index}/>
                 ))}
-                <SectionHeader name="Deluxe Resorts" info="Dining and shopping information will be added soon"/>
+                <SectionHeader name="Deluxe Resorts"/>
                 {content.resorts[2].map((section, index) => (
                     <SectionCard section={section} key={index}/>
                 ))}
-                <SectionHeader name="Vacation Club Resorts" info="Dining and shopping information will be added soon"/>
+                <SectionHeader name="Vacation Club Resorts"/>
                 {content.resorts[3].map((section, index) => (
                     <SectionCard section={section} key={index}/>
                 ))}

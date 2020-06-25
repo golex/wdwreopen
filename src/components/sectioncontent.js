@@ -51,7 +51,7 @@ function renderItemLabel(name) {
 function renderItemStatus(status) {
     if(status) {
         return (
-            <td className="w-20 md:w-48 p-1 font-normal">
+            <td className="w-20 md:w-20 p-1 font-normal">
                 {status}
             </td>
         )
