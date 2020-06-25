@@ -9,19 +9,21 @@ import {GiTicket} from 'react-icons/gi';
 import IconPicker from "./iconpicker";
 
 const openStatusMappings = [
-    {css: "wdw-item-closed", name: "Closed"},
-    {css: "wdw-item-open", name:"Open"},
-    {css: "wdw-item-unknown", name:"Unknown"},
-    {css: "wdw-item-closed", name:"Suspended"},
-    {css: "wdw-item-closed", name:"Required"},
+    {css: "wdw-item wdw-item-closed", name: "Closed"},
+    {css: "wdw-item wdw-item-open", name:"Open"},
+    {css: "wdw-item wdw-item-unknown", name:"Unknown"},
+    {css: "wdw-item wdw-item-closed", name:"Suspended"},
+    {css: "wdw-item wdw-item-closed", name:"Required"},
+    {css: "wdw-item wdw-item-link", name:""},
 ];
 
 const closedStatusMappings = [
-    {css: "wdw-item-closed", name: "Closed"},
-    {css: "wdw-item-open", name:"Confirmed"},
-    {css: "wdw-item-unknown", name:"Unknown"},
-    {css: "wdw-item-closed", name:"Suspended"},
-    {css: "wdw-item-closed", name:"Required"},
+    {css: "wdw-item wdw-item-closed", name: "Closed"},
+    {css: "wdw-item wdw-item-open", name:"Confirmed"},
+    {css: "wdw-item wdw-item-unknown", name:"Unknown"},
+    {css: "wdw-item wdw-item-closed", name:"Suspended"},
+    {css: "wdw-item wdw-item-closed", name:"Required"},
+    {css: "wdw-item wdw-item-link", name:""},
 ];
 
 function renderSectionTabList(content) {
@@ -34,6 +36,30 @@ function renderSectionTabList(content) {
     )
 }
 
+function renderItemLabel(name) {
+    if(name.startsWith("http")) {
+        return (
+            <a href={name} className="break-all md:break-normal">{name}</a>
+        )
+    } else {
+        return (
+            <div>{name}</div>
+        )
+    }
+}
+
+function renderItemStatus(status) {
+    if(status) {
+        return (
+            <td className="w-20 md:w-48 p-1 font-normal">
+                {status}
+            </td>
+        )
+    } else {
+        return null;
+    }
+}
+
 function renderSectionItemList(items, isOpen) {
     const statusMappings = isOpen ? openStatusMappings : closedStatusMappings;
     return (
@@ -43,15 +69,13 @@ function renderSectionItemList(items, isOpen) {
                     {items.map((item, index) => (
 
                         <tr key={index} className={statusMappings[item.status].css}>
-                            <td className="w-8 md:w-12 p-1 font-medium">
+                            <td className="w-8 md:w-12 p-1 md:py-2">
                                 <IconPicker name={item.icon}/>
                             </td>
                             <td className="p-1 font-medium">
-                                {item.name}
+                                {renderItemLabel(item.name)}
                             </td>
-                            <td className="w-20 md:w-56 p-1 font-normal">
-                                {statusMappings[item.status].name}
-                            </td>
+                            {renderItemStatus(statusMappings[item.status].name)}
                         </tr>
                     ))}
                 </tbody>

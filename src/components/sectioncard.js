@@ -18,9 +18,8 @@ function RenderSectionCardStatus({reopenDate}) {
         }
         else
         {
-            const reopenDateString = reopenDate.format("MMMM Do");
             return (
-                <div className="text-red-600 text-base md:text-lg font-bold tracking-wide">Closed - Reopens {reopenDateString}</div>
+                <div className="text-red-600 text-base md:text-lg font-bold tracking-wide">Closed</div>
             )
         }
     } else {

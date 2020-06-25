@@ -21,3 +21,7 @@
 .wdw-item-unknown {
     @apply text-gray-600
 }
+
+.wdw-item-link {
+    @apply text-indigo-700 text-sm underline
+}

@@ -9,7 +9,12 @@ function CountdownLabel({targetTime}) {
     const isOver =  currentTime.isAfter(targetTime);
     const diff = targetTime - currentTime;
     var duration = moment.duration(targetTime.diff(currentTime));
-    if(targetTime.isValid() && !isOver) {
+    if(targetTime.isValid() && !isOver && targetTime.year() === 2020) {
+        const targetDateString = targetTime.format("MMMM Do");
+        var monthsLeft = duration.months();
+        var monthsLeftString = '';
+        if(monthsLeft == 1) { monthsLeftString = '1 month, '}
+        else if(monthsLeft > 1) { monthsLeftString = `${monthsLeft} months, `}
         var daysLeft = duration.days();
         var daysLeftString = '';
         if(daysLeft == 1) { daysLeftString = '1 day, '}
@@ -23,7 +28,7 @@ function CountdownLabel({targetTime}) {
         if(minutesLeft == 1) { minutesLeftString = '1 minute, '}
         else if(minutesLeft > 1) { minutesLeftString = `${minutesLeft} minutes`}
         return (
-            <div className="mt-1 text-sm text-gray-600">Reopens in {daysLeftString}{hoursLeftString}{minutesLeftString}</div>
+            <div className="mt-1 text-sm text-gray-600">Reopens <div className="font-medium inline">{targetDateString}</div> ({monthsLeftString}{daysLeftString}{hoursLeftString}{minutesLeftString})</div>
         );
     } else {
         return null;

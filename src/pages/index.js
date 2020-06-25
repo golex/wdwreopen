@@ -31,17 +31,34 @@ function Info() {
                     Is Disney World Open Yet?
                 </h1>                
                 <br/>
-                <p className="mb-2">This information is only sourced from official Disney announcements made on public channels.<br/>Last updated <div className="inline-block font-medium">{buildTimestamp}</div>. </p>
-                <p className="text-sm italic text-gray-500">This site is not affiliated in any way with the Walt Disney Company or any of its affiliates or subsidiaries.</p>
-                <br/>
+                
+                <div className="bg-white shadow rounded-lg mb-6 p-3">
+                    <div className="mb-1">Last updated <div className="inline-block font-medium">{buildTimestamp}</div>. </div>
+                    <div className="mb-1">This information is only sourced from official Disney announcements made on public channels.</div>
+                    <div className="text-sm text-gray-600">This site is not affiliated in any way with the Walt Disney Company or any of its affiliates or subsidiaries.</div>
+                </div>
                 <SectionHeader name="Theme Parks"/>
                 {content.themeParks.map((section, index) => (
                     <SectionCard section={section} key={index}/>
                 ))}
-                <SectionHeader name="Resorts - Coming Soon"/>
-                {content.resorts.map((section, index) => (
+                <SectionHeader name="Value Resorts" info="Dining and shopping information will be added soon"/>
+                {content.resorts[0].map((section, index) => (
                     <SectionCard section={section} key={index}/>
                 ))}
+                <SectionHeader name="Moderate Resorts" info="Dining and shopping information will be added soon"/>
+                {content.resorts[1].map((section, index) => (
+                    <SectionCard section={section} key={index}/>
+                ))}
+                <SectionHeader name="Deluxe Resorts" info="Dining and shopping information will be added soon"/>
+                {content.resorts[2].map((section, index) => (
+                    <SectionCard section={section} key={index}/>
+                ))}
+                <SectionHeader name="Vacation Club Resorts" info="Dining and shopping information will be added soon"/>
+                {content.resorts[3].map((section, index) => (
+                    <SectionCard section={section} key={index}/>
+                ))}
+                <SectionHeader name=""/>
+                <SectionCard section={content.references[0]}/>
             </div>
             <div className="flex justify-center bg-indigo-200 px-4 py-4">
                 <div>Assembled by Ryan Austin</div>

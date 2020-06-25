@@ -36,13 +36,12 @@ class Section {
     }
 }
 
-function addDataToSection(section, name, icon, status) {
-    section.content.push({
-        name: name,
-        icon: icon,
-        status: status
-    });
-    return section;
+function addResort(list, name, reopenDate, icon) {
+    if(!icon) {
+        icon = "hotel";
+    }
+    var resort = new Section(name, reopenDate, icon);
+    list.push(resort);
 }
 
 function Content() {
@@ -141,6 +140,21 @@ function Content() {
     mk.addItem("Shopping", "TTC Cart / Wheelchairs", "shop", 1);
     mk.addItem("Shopping", "Uptown Jewelers & Cinema", "shop", 1);
     mk.addItem("Shopping", "Ye Olde Christmas Shoppe", "shop", 1);
+    mk.addItem("Shopping", "Bibbidi Bobbidi Boutique", "shop", 0);
+    mk.addItem("Shopping", "Harmony Barber Shop", "shop", 0);
+    mk.addItem("Shopping", "Agrabah Bazaar", "shop", 2);
+    mk.addItem("Shopping", "Big Top Souvenirs", "shop", 2);
+    mk.addItem("Shopping", "Bonjour! Village Gifts", "shop", 2);
+    mk.addItem("Shopping", "Briar Patch", "shop", 2);
+    mk.addItem("Shopping", "Casey Jr. RailRoad Mercantile", "shop", 2);
+    mk.addItem("Shopping", "Disney Clothiers", "shop", 2);
+    mk.addItem("Shopping", "La Princesa de Cristal", "shop", 2);
+    mk.addItem("Shopping", "Liberty Square Portrait Gallery", "shop", 2);
+    mk.addItem("Shopping", "Merchant of Venus", "shop", 2);
+    mk.addItem("Shopping", "Newsstand", "shop", 2);
+    mk.addItem("Shopping", "Prairie Outpost & Supply", "shop", 2);
+    mk.addItem("Shopping", "The Pirates League", "shop", 2);
+    mk.addItem("Shopping", "Ursa's Major Minor Mart", "shop", 2);
 
     var ak = new Section("Animal Kingdom", "2020-07-11 08:00-04:00", "AK");
     ak.addItem("Attractions", "Avatar Flight of Passage", "ride", 1);
@@ -207,6 +221,15 @@ function Content() {
     ak.addItem("Shopping", "Serka Zong Bazaar", "shop", 1);
     ak.addItem("Shopping", "The Dino Institute Shop", "shop", 1);
     ak.addItem("Shopping", "Windtraders", "shop", 1);
+    ak.addItem("Shopping", "Boneyard Cart", "shop", 2);
+    ak.addItem("Shopping", "Colors of Mo'ara", "shop", 2);
+    ak.addItem("Shopping", "Island Mercantile", "shop", 2);
+    ak.addItem("Shopping", "Mariya's Souvenirs", "shop", 2);
+    ak.addItem("Shopping", "Riverside Depot", "shop", 2);
+    ak.addItem("Shopping", "The Outpost Shop", "shop", 2);
+    ak.addItem("Shopping", "Yak & Yeti™ Bhaktapur Market", "shop", 2);
+    ak.addItem("Shopping", "Ziwani Traders", "shop", 2);
+    ak.addItem("Shopping", "Zuri's Sweets Shop", "shop", 2);
 
     var ep = new Section("Epcot", "2020-07-15 11:00-04:00", "EP");
     ep.addItem("Attractions", "Awesome Planet", "ride", 1);
@@ -306,6 +329,42 @@ function Content() {
     ep.addItem("Shopping", "Test Track Simporium", "shop", 1);
     ep.addItem("Shopping", "Wood Carver", "shop", 1);
     ep.addItem("Shopping", "World Traveler", "shop", 1);
+    ep.addItem("Shopping", "Casablanca Carpets", "shop", 2);
+    ep.addItem("Shopping", "Das Kaufhaus", "shop", 2);
+    ep.addItem("Shopping", "Der Teddybar", "shop", 2);
+    ep.addItem("Shopping", "Die Weihnachts Ecke", "shop", 2);
+    ep.addItem("Shopping", "El Ranchito del Norte", "shop", 2);
+    ep.addItem("Shopping", "Glaskunst", "shop", 2);
+    ep.addItem("Shopping", "Good Fortune Gifts", "shop", 2);
+    ep.addItem("Shopping", "Il Bel Cristallo", "shop", 2);
+    ep.addItem("Shopping", "Kunstarbeit in Kristall", "shop", 2);
+    ep.addItem("Shopping", "La Princesa de Cristal", "shop", 2);
+    ep.addItem("Shopping", "La Signature", "shop", 2);
+    ep.addItem("Shopping", "La Gemma Elegante", "shop", 2);
+    ep.addItem("Shopping", "La Tienda Encantada", "shop", 2);
+    ep.addItem("Shopping", "L'Esprit de la Provence", "shop", 2);
+    ep.addItem("Shopping", "Les Vins de France", "shop", 2);
+    ep.addItem("Shopping", "Lords and Ladies", "shop", 2);
+    ep.addItem("Shopping", "Marketplace in the Medina", "shop", 2);
+    ep.addItem("Shopping", "Northwest Mercantile", "shop", 2);
+    ep.addItem("Shopping", "Plaza de los Amigos", "shop", 2);
+    ep.addItem("Shopping", "Plume et Palette", "shop", 2);
+    ep.addItem("Shopping", "Ring Carvers", "shop", 2);
+    ep.addItem("Shopping", "Souk-al-Magreb", "shop", 2);
+    ep.addItem("Shopping", "Souvenirs de France", "shop", 2);
+    ep.addItem("Shopping", "Sportsman's Shoppe", "shop", 2);
+    ep.addItem("Shopping", "Stein Haus", "shop", 2);
+    ep.addItem("Shopping", "Tangier Traders", "shop", 2);
+    ep.addItem("Shopping", "The Brass Bazaar", "shop", 2);
+    ep.addItem("Shopping", "The Crown & Crest", "shop", 2);
+    ep.addItem("Shopping", "The Fjording", "shop", 2);
+    ep.addItem("Shopping", "The Queen's Table", "shop", 2);
+    ep.addItem("Shopping", "The Toy Soldier", "shop", 2);
+    ep.addItem("Shopping", "Trading Post", "shop", 2);
+    ep.addItem("Shopping", "Village Traders", "shop", 2);
+    ep.addItem("Shopping", "Volkskunst", "shop", 2);
+    ep.addItem("Shopping", "Wandering Reindeer", "shop", 2);
+    ep.addItem("Shopping", "Weinkeller", "shop", 2);
 
     var hs = new Section("Hollywood Studios", "2020-07-15 10:00-04:00", "HS");
     hs.addItem("Attractions", "Alien Swirling Saucers", "ride", 1);
@@ -379,6 +438,21 @@ function Content() {
     hs.addItem("Shopping", "The Market", "shop", 1);
     hs.addItem("Shopping", "Tower Hotel Gifts", "shop", 1);
     hs.addItem("Shopping", "Toy Story Mania Shop", "shop", 1);
+    hs.addItem("Shopping", "Beverly Sunset Boutique", "shop", 2);
+    hs.addItem("Shopping", "Black Spire Outfitters", "shop", 2);
+    hs.addItem("Shopping", "Creature Stall", "shop", 2);
+    hs.addItem("Shopping", "Disney Studio Store", "shop", 2);
+    hs.addItem("Shopping", "First Order Cargo", "shop", 2);
+    hs.addItem("Shopping", "Frozen Fractal Gifts", "shop", 2);
+    hs.addItem("Shopping", "Indiana Jones Adventure Outpost", "shop", 2);
+    hs.addItem("Shopping", "It's A Wonderful Shop", "shop", 2);
+    hs.addItem("Shopping", "Keystone Clothiers", "shop", 2);
+    hs.addItem("Shopping", "Launch Bay Cargo", "shop", 2);
+    hs.addItem("Shopping", "Oscar's Super Service", "shop", 2);
+    hs.addItem("Shopping", "Resistance Supply", "shop", 2);
+    hs.addItem("Shopping", "Sunset Ranch Pins and Souvenirs", "shop", 2);
+    hs.addItem("Shopping", "Stage 1 Company Store", "shop", 2);
+    hs.addItem("Shopping", "Toydarian Toymaker", "shop", 2);
 
     var other = new Section("Other", "", "");
     other.addItem("Misc", "Golf", "map", 1);
@@ -388,9 +462,70 @@ function Content() {
     other.addItem("Misc", "Spas and Salons", "map", 0);
     other.addItem("Misc", "Typhoon Lagoon", "map", 0);
 
+    var valueResorts = [];
+    var moderateResorts = [];
+    var deluxeResorts = [];
+    var dvcResorts = [];
+
+// Value
+addResort(valueResorts, "Disney's All-Star Movies Resort", "2021-01-01 09:00-04:00");
+addResort(valueResorts, "Disney's All-Star Music Resort", "2021-01-01 09:00-04:00");
+addResort(valueResorts, "Disney's All-Star Sports Resort", "2021-01-01 09:00-04:00");
+addResort(valueResorts, "Disney's Art of Animation Resort", "2020-08-12 09:00-04:00");
+addResort(valueResorts, "Disney's Pop Century Resort", "2020-07-10 09:00-04:00");
+addResort(valueResorts, "The Campsites at Disney's Fort Wilderness Resort", "2021-01-01 09:00-04:00");
+//Moderate:
+
+addResort(moderateResorts, "Disney's Caribbean Beach Resort", "2020-07-29 09:00-04:00");
+addResort(moderateResorts, "Disney's Coronado Springs Resort", "2020-10-14 09:00-04:00");
+addResort(moderateResorts, "Disney's Port Orleans Resort - French Quarter", "2021-01-01 09:00-04:00");
+addResort(moderateResorts, "Disney's Port Orleans Resort - Riverside", "2021-01-01 09:00-04:00");
+addResort(moderateResorts, "The Cabins at Disney's Fort Wilderness Resort", "2021-01-01 09:00-04:00");
+//Deluxe:
+
+addResort(deluxeResorts, "Disney's Animal Kingdom Lodge", "2021-01-01 09:00-04:00");
+addResort(deluxeResorts, "Disney's Beach Club Resort", "2020-08-24 09:00-04:00");
+addResort(deluxeResorts, "Disney's BoardWalk Inn", "2020-10-01 09:00-04:00");
+addResort(deluxeResorts, "Disney's Contemporary Resort", "2020-07-10 09:00-04:00");
+addResort(deluxeResorts, "Disney's Grand Floridian Resort & Spa", "2020-09-21 09:00-04:00");
+addResort(deluxeResorts, "Disney's Polynesian Village Resort", "2020-08-12 09:00-04:00");
+addResort(deluxeResorts, "Disney's Wilderness Lodge", "2021-01-01 09:00-04:00");
+addResort(deluxeResorts, "Disney's Yacht Club Resort", "2020-08-24 09:00-04:00");
+//DVC:
+
+addResort(dvcResorts, "Bay Lake Tower at Disney's Contemporary Resort", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "Boulder Ridge Villas at Disney's Wilderness Lodge", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "Copper Creek Villas & Cabins at Disney's Wilderness Lodge", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "Disney's Animal Kingdom Villas - Jambo House", "2020-07-10 09:00-04:00", "village");
+addResort(dvcResorts, "Disney's Animal Kingdom Villas - Kidani Village", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "Disney's Beach Club Villas", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "Disney's BoardWalk Villas", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "Disney's Old Key West Resort", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "Disney's Polynesian Villas & Bungalows", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "Disney’s Riviera Resort", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "Disney's Saratoga Springs Resort & Spa", "2020-06-22 09:00-04:00", "village");
+addResort(dvcResorts, "The Villas at Disney's Grand Floridian Resort & Spa", "2020-06-22 09:00-04:00", "village");
+
+
+    var references = new Section("References", "", "");
+    references.addItem("Link", "https://disneyworld.disney.go.com/experience-updates/", "link", 5);
+    references.addItem("Link", "https://disneyworld.disney.go.com/experience-updates/parks", "link", 5);
+    references.addItem("Link", "https://disneyworld.disney.go.com/experience-updates/resorts", "link", 5);
+    references.addItem("Link", "https://disneyworld.disney.go.com/experience-updates/dine/", "link", 5);
+    references.addItem("Link", "https://disneyworld.disney.go.com/experience-updates/park-reservations", "link", 5);
+    references.addItem("Link", "https://disneyworld.disney.go.com/experience-updates/events-tours-extras", "link", 5);
+    references.addItem("Link", "https://disneyworld.disney.go.com/experience-updates/annual-passes/", "link", 5);
+    references.addItem("Link", "https://disneyworld.disney.go.com/travel-information/", "link", 5);
+    references.addItem("Link", "https://disneyparks.disney.go.com/blog/2020/06/attractions-and-entertainment-details-for-phased-reopening-of-walt-disney-world-theme-parks/", "link", 5);
+    references.addItem("Link", "https://disneyparks.disney.go.com/blog/2020/06/introducing-the-disney-park-pass-system-for-reserving-theme-park-visits-to-walt-disney-world-resort/", "link", 5);
+    references.addItem("Link", "https://disneyparks.disney.go.com/blog/2020/06/update-on-seasonal-events-at-walt-disney-world-resort/", "link", 5);
+    references.addItem("Link", "https://disneyworld.disney.go.com/faq/dining-reservations/advance-reservation-window/", "link", 5);
+
+
     return {
         themeParks : [allThemeParks, mk, ak, ep, hs, other],
-        resorts : []
+        resorts : [valueResorts, moderateResorts, deluxeResorts, dvcResorts],
+        references : [references],
     };
 }
 

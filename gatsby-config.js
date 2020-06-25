@@ -6,7 +6,7 @@ const fullConfig = resolveConfig(tailwindConfig);
 module.exports = {
   siteMetadata: {
     title: `Is Disney World Open Yet?`,
-    description: `Quick reference for the current reopen status for Walt Disney World in Orlando, FL`,
+    description: `Easy reference for the latest reopening status of Walt Disney World in Orlando, FL`,
     author: `@golex`,
   },
   plugins: [
@@ -60,7 +60,7 @@ module.exports = {
       options: {
         formatAsDateString: true, // boolean, defaults to true - if false API will return unformatted string from new Date()
         formatting: {
-          format: 'MMMM D, YYYY at h:mmA [CST]', // string, defaults to "MM/DD/YYYY" - pass in any acceptable date-and-time format
+          format: 'MMMM D, YYYY', // string, defaults to "MM/DD/YYYY" - pass in any acceptable date-and-time format
           utc: false, // boolean, defaults to false - output time as UTC or not, following date-and-time API
         },
       },
