@@ -16,8 +16,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `Is Disney World Open Yet?`,
+        short_name: `IDWOY?`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.gray["100"],
         theme_color: fullConfig.theme.colors.indigo["600"],
