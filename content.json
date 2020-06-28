@@ -1,14 +1,2756 @@
 {
-    "allThemeParks" : {
+    "themeParks": [
+      {
+        "id": "all",
         "title": "All Theme Parks",
         "reopenDate": "",
-        "content" : [
+        "icon": null,
+        "content": {
+          "Misc": [
             {
-                "name" : "FastPass+",
-                "icon" : "test.svg",
-                "status" : "0",
-                "category" : ""
+              "name": "Ticket Sales (2021 available)",
+              "icon": "ticket",
+              "status": 6
+            },
+            {
+              "name": "FastPass+",
+              "icon": "door",
+              "status": 3
+            },
+            {
+              "name": "Extra Magic Hours",
+              "icon": "clock",
+              "status": 3
+            },
+            {
+              "name": "Parades & Nighttime Shows",
+              "icon": "firework",
+              "status": 3
+            },
+            {
+              "name": "Character Greetings",
+              "icon": "mickey",
+              "status": 3
+            },
+            {
+              "name": "Park Reservations",
+              "icon": "calendar",
+              "status": 4
+            },
+            {
+              "name": "Face Coverings",
+              "icon": "mask",
+              "status": 4
             }
-        ]
-    }
-}
+          ]
+        }
+      },
+      {
+        "id": "mk",
+        "title": "Magic Kingdom",
+        "reopenDate": "2020-07-11 09:00-04:00",
+        "icon": "MK",
+        "large": true,
+        "content": {
+          "Attractions": [
+            {
+              "name": "\"it's a small world”",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Astro Orbiter",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Big Thunder Mountain Railroad",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Buzz Lightyear's Space Ranger Spin",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Carousel of Progress",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Country Bear Jamboree",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Dumbo the Flying Elephant",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Enchanted Tiki Room",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Jungle Cruise",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Liberty Square Riverboat",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Mad Tea Party",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Mickey's PhilharMagic",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Peter Pan's Flight",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Pirates of the Caribbean",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Prince Charming Regal Carrousel",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Seven Dwarfs Mine Train",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Sorcerers of the Magic Kingdom",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Space Mountain",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Splash Mountain",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Swiss Family Treehouse",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The Barnstormer",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The Hall of Presidents",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The Haunted Mansion",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The Magic Carpets of Aladdin",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The Many Adventures of Winnie the Pooh",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Tom Sawyer Island",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Tomorrowland Speedway",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Tomorrowland Transit Authority Peoplemover",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Under the Sea ~ Journey of The Little Mermaid",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Enchanted Tales with Belle",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "Monsters, Inc. Laugh Floor",
+              "icon": "ride",
+              "status": 2
+            }
+          ],
+          "Dining": [
+            {
+              "name": "Aloha Isle",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Auntie Gravity's Galactic Goodies",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Be Our Guest Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Cosmic Ray's Starlight Cafe",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Joffrey’s Coffee & Tea Company",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Jungle Navigation Co. LTD Skipper Canteen",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Liberty Square Market",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Liberty Tree Tavern",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Main Street Bakery",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Pecos Bill Tall Tale Inn and Cafe",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Pinocchio Village Haus",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "The Plaza Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Sleepy Hollow",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Storybook Treats",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Sunshine Tree Terrace",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Tony's Town Square Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Casey's Corner",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Cheshire Café",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Cinderella's Royal Table",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Columbia Harbour House",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Cool Ship",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Gaston's Tavern",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Golden Oak Outpost",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "The Diamond Horseshoe",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "The Friar's Nook",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "The Lunching Pad",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Tomorrowland Terrace Restaurant",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Tortuga Tavern",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Westward Ho",
+              "icon": "food",
+              "status": 2
+            }
+          ],
+          "Shopping": [
+            {
+              "name": "Arribas Brothers",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Baby Care",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Big Al's",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Box Office Gifts",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Buzz Lightyear's Space Ranger Spin Photos",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Crystal Arts",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Emporium",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Fantasy Faire",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Hundred Acre Goods",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Island Supply by Sunglass Hut",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Main Street Confectionery",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Memento Mori",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Plaza del Sol Caribe Bazaar",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Rubio Arts",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Sir Mickey’s",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Splashdown Photos",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Star Traders",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Strollers & Wheelchairs",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "The Chapeau",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Tomorrowland Light & Power Co.",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "TTC Cart / Wheelchairs",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Uptown Jewelers & Cinema",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Ye Olde Christmas Shoppe",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Bibbidi Bobbidi Boutique",
+              "icon": "shop",
+              "status": 0
+            },
+            {
+              "name": "Harmony Barber Shop",
+              "icon": "shop",
+              "status": 0
+            },
+            {
+              "name": "Agrabah Bazaar",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Big Top Souvenirs",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Bonjour! Village Gifts",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Briar Patch",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Casey Jr. RailRoad Mercantile",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Disney Clothiers",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "La Princesa de Cristal",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Liberty Square Portrait Gallery",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Merchant of Venus",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Newsstand",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Prairie Outpost & Supply",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "The Pirates League",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Ursa's Major Minor Mart",
+              "icon": "shop",
+              "status": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "ak",
+        "title": "Animal Kingdom",
+        "reopenDate": "2020-07-11 08:00-04:00",
+        "icon": "AK",
+        "large": true,
+        "content": {
+          "Attractions": [
+            {
+              "name": "Avatar Flight of Passage",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "DINOSAUR",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Discovery Island Trails",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Expedition Everest – Legend of the Forbidden Mountain",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Gorilla Falls Exploration Trail",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "It’s Tough to be a Bug!",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Kali River Rapids",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Kilimanjaro Safaris",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Maharajah Jungle Trek",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Na'vi River Journey",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The Animation Experience at Conservation Station",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The Oasis Exhibits",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "TriceraTop Spin",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Wilderness Explorers",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Wildlife Express",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Festival of the Lion King",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "Primeval Whirl",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "The Boneyard",
+              "icon": "ride",
+              "status": 2
+            }
+          ],
+          "Dining": [
+            {
+              "name": "Anandapur Ice Cream Truck",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Creature Comforts",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Dawa Bar",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Dino-Bite Snacks",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Flame Tree Barbecue",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Harambe Fruit Market",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Isle of Java",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Joffrey’s Coffee & Tea Company",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Mr. Kamal's",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Nomad Lounge",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Pongu Pongu",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Rainforest Cafe® at Disney's Animal Kingdom",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Restaurantosaurus",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Satu'li Canteen",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Tamu Tamu Refreshments",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Thirsty River Bar & Trek Snacks",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Tiffins Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Trilo-Bites",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Yak & Yeti™ Local Food Cafes",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Yak & Yeti™ Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Caravan Road",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Dino Diner",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Drinkwallah",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Eight Spoon Café",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Kusafiri Coffee Shop & Bakery",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Mahindi",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Pizzafari",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "The Smiling Crocodile",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Terra Treats",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Tusker House Restaurant",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Warung Outpost",
+              "icon": "food",
+              "status": 2
+            }
+          ],
+          "Shopping": [
+            {
+              "name": "Africa Hub Cart",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "African Heritage Wood Carving",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Baby Care",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Chester and Hester's Dinosaur Treasures",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Discovery Trading Company",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Garden Gate Gifts & Strollers",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Kilimanjaro Safari Cart",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Mandala Gifts",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Mombasa Marketplace",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Out Of The Wild",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Serka Zong Bazaar",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "The Dino Institute Shop",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Windtraders",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Boneyard Cart",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Colors of Mo'ara",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Island Mercantile",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Mariya's Souvenirs",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Riverside Depot",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "The Outpost Shop",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Yak & Yeti™ Bhaktapur Market",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Ziwani Traders",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Zuri's Sweets Shop",
+              "icon": "shop",
+              "status": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "ep",
+        "title": "Epcot",
+        "reopenDate": "2020-07-15 11:00-04:00",
+        "icon": "EP",
+        "large": true,
+        "content": {
+          "Attractions": [
+            {
+              "name": "Awesome Planet",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Canada Far and Wide",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Disney & Pixar Short Film Festival",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Friendship Lagoon Boats",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Frozen Ever After",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Gran Fiesta Tour Starring The Three Caballeros",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Impressions de France",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Journey Into Imagination with Figment",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Kidcot (modified)",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Living with the Land",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Mission: SPACE",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Reflections of China",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Soarin' Around the World",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Spaceship Earth",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Test Track",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The American Adventure",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The Seas with Nemo & Friends",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Walt Disney Imagineering presents the Epcot Experience",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Turtle Talk with Crush",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "Voices of Liberty",
+              "icon": "ride",
+              "status": 2
+            }
+          ],
+          "Dining": [
+            {
+              "name": "Biergarten Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Choza de Margarita",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Coral Reef Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Crepes des Chefs de France",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Fife & Drum Tavern",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Funnel Cake",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Garden Grill Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Gelati",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Joffrey’s Coffee & Tea Company",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Joy of Tea",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Kabuki Café",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Katsura Grill",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "L'Artisan des Glaces",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "La Cantina de San Angel",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "La Cava de Tequila",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "La Hacienda de San Angel",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "The Land Cart",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Le Cellier Steakhouse",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Popcorn in Canada",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Refreshment Outpost",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Refreshment Port",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Regal Eagle Smokehouse: Craft Drafts & Barbecue",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Rose & Crown Dining Room",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Rose & Crown Pub",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "San Angel Inn Restaurante",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Spice Road Table",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Sunshine Seasons",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Tangierine Café",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Taste of EPCOT International Food & Wine Festival",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Traveler’s Café",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "UK Beer Cart",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Via Napoli Ristorante e Pizzeria",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Akershus Royal Banquet Hall",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Block & Hans",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Chefs de France",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Cool Wash",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Kringla Bakeri Og Kafe",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Les Halles Boulangerie-Patisserie",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Lotus Blossom Café",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Monsieur Paul",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Nine Dragons Restaurant",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Restaurant Marrakesh",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Sommerfest",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Takumi-Tei",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Teppan Edo",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Tokyo Dining",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Tutto Gusto Wine Cellar",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Tutto Italia Ristorante",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Yorkshire County Fish Shop",
+              "icon": "food",
+              "status": 2
+            }
+          ],
+          "Shopping": [
+            {
+              "name": "African Heritage",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Arribas Brothers",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Art of Disney",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Baby Care",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Canada Cart",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "China Kiosk",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Disney Traders",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Galerie Des Halles",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Gateway Gifts",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Glas Und Porcellan",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "ImageWorks",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Karamell Kuche",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "La Bottega Italiana",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Mexico Indoor Plaza",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Mission: SPACE Cargo",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Mitsukoshi",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Mouse Gear Temporary Location",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Pin Traders - Camera Center",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Port of Entry",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Puffin's Roost",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Sea Base Alpha Gift Shop",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Strollers & Wheelchairs",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Tea Caddy",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Test Track Simporium",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Wood Carver",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "World Traveler",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Casablanca Carpets",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Das Kaufhaus",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Der Teddybar",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Die Weihnachts Ecke",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "El Ranchito del Norte",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Glaskunst",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Good Fortune Gifts",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Il Bel Cristallo",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Kunstarbeit in Kristall",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "La Princesa de Cristal",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "La Signature",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "La Gemma Elegante",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "La Tienda Encantada",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "L'Esprit de la Provence",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Les Vins de France",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Lords and Ladies",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Marketplace in the Medina",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Northwest Mercantile",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Plaza de los Amigos",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Plume et Palette",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Ring Carvers",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Souk-al-Magreb",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Souvenirs de France",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Sportsman's Shoppe",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Stein Haus",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Tangier Traders",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "The Brass Bazaar",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "The Crown & Crest",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "The Fjording",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "The Queen's Table",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "The Toy Soldier",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Trading Post",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Village Traders",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Volkskunst",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Wandering Reindeer",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Weinkeller",
+              "icon": "shop",
+              "status": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "hs",
+        "title": "Hollywood Studios",
+        "reopenDate": "2020-07-15 10:00-04:00",
+        "icon": "HS",
+        "large": true,
+        "content": {
+          "Attractions": [
+            {
+              "name": "Alien Swirling Saucers",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Lightning McQueen's Racing Academy",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Mickey & Minnie's Runaway Railway",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Mickey Shorts Theater",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Millennium Falcon: Smugglers Run",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Muppet*Vision 3D",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Rock 'n' Roller Coaster Starring Aerosmith",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Slinky Dog Dash",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Star Tours – The Adventures Continue",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Star Wars: Rise of the Resistance",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "The Twilight Zone Tower of Terror™",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Toy Story Mania!",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Walt Disney Presents",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Beauty and the Beast - Live on Stage",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "Disney Junior Dance Party!",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "For the First Time In Forever: A Frozen Sing-Along Celebration",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "Indiana Jones Epic Stunt Spectacular!",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "Jedi Training: Trials of the Temple",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "Savi's Workshop",
+              "icon": "ride",
+              "status": 2
+            },
+            {
+              "name": "Voyage of the Little Mermaid",
+              "icon": "ride",
+              "status": 2
+            }
+          ],
+          "Dining": [
+            {
+              "name": "50's Prime Time Café",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Anaheim Produce",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Backlot Express",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "BaseLine Tap House",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Docking Bay 7 Food and Cargo",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "The Hollywood Brown Derby",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "The Hollywood Brown Derby Lounge",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Joffrey’s Coffee & Tea Company",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Mama Melrose's Ristorante Italiano",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Milk Stand",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Oga's Cantina at the Walt Disney World Resort",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Peevy’s Polar Pipeline",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "PizzeRizzo",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Ronto Roasters",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Rosie's All-American Café",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Sci-Fi Dine-In Theater Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Sunshine Day Bar",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "The Trolley Car Café",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "ABC Commissary",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Catalina Eddie's",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Dockside Diner",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Epic Eats",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Fairfax Fare",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Hollywood Scoops",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Hollywood & Vine",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Kat Saka's Kettle",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "KRNR The Rock Station",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Market",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Neighborhood Bakery",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Tune-In Lounge",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Woody's Lunch Box",
+              "icon": "food",
+              "status": 2
+            }
+          ],
+          "Shopping": [
+            {
+              "name": "Celebrity 5 & 10",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Crossroads of the World",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Dok Ondar's Den of Antiquities",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Droid Depot Experience",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Droid Depot Store",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "In Character",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Legends of Hollywood",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Mickey's Of Hollywood",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Movieland Memorabilia",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Once Upon A Time",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Rock Around The Shop",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Rubio Arts",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Sid Cahuenga's One-of-a-Kind",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Strollers & Wheelchairs",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Tatooine Traders",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "The Market",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Tower Hotel Gifts",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Toy Story Mania Shop",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Beverly Sunset Boutique",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Black Spire Outfitters",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Creature Stall",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Disney Studio Store",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "First Order Cargo",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Frozen Fractal Gifts",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Indiana Jones Adventure Outpost",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "It's A Wonderful Shop",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Keystone Clothiers",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Launch Bay Cargo",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Oscar's Super Service",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Resistance Supply",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Sunset Ranch Pins and Souvenirs",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Stage 1 Company Store",
+              "icon": "shop",
+              "status": 2
+            },
+            {
+              "name": "Toydarian Toymaker",
+              "icon": "shop",
+              "status": 2
+            }
+          ]
+        }
+      },
+      {
+        "id": "other",
+        "title": "Other",
+        "reopenDate": "",
+        "icon": "",
+        "content": {
+          "Misc": [
+            {
+              "name": "Golf",
+              "icon": "map",
+              "status": 1
+            },
+            {
+              "name": "Blizzard Beach",
+              "icon": "map",
+              "status": 0
+            },
+            {
+              "name": "ESPN Wide World of Sports Complex",
+              "icon": "map",
+              "status": 0
+            },
+            {
+              "name": "Miniature Golf",
+              "icon": "map",
+              "status": 0
+            },
+            {
+              "name": "Spas and Salons",
+              "icon": "map",
+              "status": 0
+            },
+            {
+              "name": "Typhoon Lagoon",
+              "icon": "map",
+              "status": 0
+            }
+          ]
+        }
+      }
+    ],
+    "resorts": [
+      [
+        {
+          "id": "asmovies",
+          "title": "Disney's All-Star Movies Resort",
+          "reopenDate": "2021-01-01 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "asmusic",
+          "title": "Disney's All-Star Music Resort",
+          "reopenDate": "2021-01-01 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "assports",
+          "title": "Disney's All-Star Sports Resort",
+          "reopenDate": "2021-01-01 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "aoa",
+          "title": "Disney's Art of Animation Resort",
+          "reopenDate": "2020-08-12 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "pop",
+          "title": "Disney's Pop Century Resort",
+          "reopenDate": "2020-07-10 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "fw",
+          "title": "The Campsites at Disney's Fort Wilderness Resort",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "hotel",
+          "content": {
+            "Dining": [
+              {
+                "name": "P&J's Southern Takeout",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Meadow Snack Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Crockett’s Tavern",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Settlement Trading Post",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Meadow Trading Post",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "cbr",
+          "title": "Disney's Caribbean Beach Resort",
+          "reopenDate": "2020-07-29 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "csr",
+          "title": "Disney's Coronado Springs Resort",
+          "reopenDate": "2020-10-14 09:00-04:00",
+          "icon": "hotel",
+          "tag": "nba",
+          "content": {}
+        },
+        {
+          "id": "pofq",
+          "title": "Disney's Port Orleans Resort - French Quarter",
+          "reopenDate": "2021-01-01 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "por",
+          "title": "Disney's Port Orleans Resort - Riverside",
+          "reopenDate": "2021-01-01 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "fwc",
+          "title": "The Cabins at Disney's Fort Wilderness Resort",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "hotel",
+          "content": {
+            "Dining": [
+              {
+                "name": "P&J's Southern Takeout",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Meadow Snack Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Crockett’s Tavern",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Settlement Trading Post",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Meadow Trading Post",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "id": "akl",
+          "title": "Disney's Animal Kingdom Lodge",
+          "reopenDate": "2021-01-01 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "bc",
+          "title": "Disney's Beach Club Resort",
+          "reopenDate": "2020-08-24 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "bw",
+          "title": "Disney's BoardWalk Inn",
+          "reopenDate": "2020-10-01 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "con",
+          "title": "Disney's Contemporary Resort",
+          "reopenDate": "2020-07-10 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "gf",
+          "title": "Disney's Grand Floridian Resort & Spa",
+          "reopenDate": "2020-09-21 09:00-04:00",
+          "icon": "hotel",
+          "tag": "nba",
+          "content": {}
+        },
+        {
+          "id": "pvr",
+          "title": "Disney's Polynesian Village Resort",
+          "reopenDate": "2020-08-12 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "wl",
+          "title": "Disney's Wilderness Lodge",
+          "reopenDate": "2021-01-01 09:00-04:00",
+          "icon": "hotel",
+          "content": {}
+        },
+        {
+          "id": "yc",
+          "title": "Disney's Yacht Club Resort",
+          "reopenDate": "2020-08-24 09:00-04:00",
+          "icon": "hotel",
+          "tag": "nba",
+          "content": {}
+        }
+      ],
+      [
+        {
+          "id": "blt",
+          "title": "Bay Lake Tower at Disney's Contemporary Resort",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "The Wave… of American Flavors ",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Wave Lounge",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Contempo Café",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Cove Bar",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Bayview Gifts",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Fantasia Market ",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "brv",
+          "title": "Boulder Ridge Villas at Disney's Wilderness Lodge",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "Whispering Canyon Cafe",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Roaring Fork",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Geyser Point Bar & Grill",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Wilderness Mercantile",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "ccv",
+          "title": "Copper Creek Villas & Cabins at Disney's Wilderness Lodge",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "Whispering Canyon Cafe",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Roaring Fork",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Geyser Point Bar & Grill",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Wilderness Mercantile",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "akvj",
+          "title": "Disney's Animal Kingdom Villas - Jambo House",
+          "reopenDate": "2021-01-01 09:00-04:00",
+          "icon": "village",
+          "content": {}
+        },
+        {
+          "id": "akvk",
+          "title": "Disney's Animal Kingdom Villas - Kidani Village",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "Sanaa",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Kidani Breakfast at Sanaa",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Sanaa Lounge",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Maji Pool Bar",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Johari Treasures",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "bcv",
+          "title": "Disney's Beach Club Villas",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "Beaches and Cream Soda Shop",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Beach Club Marketplace",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Martha’s Vineyard",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Beach Club Marketplace",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "bwv",
+          "title": "Disney's BoardWalk Villas",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "Trattoria al Forno (excludes Character Dining)",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Pizza Window",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "BoardWalk Bakery",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Leaping Horse Libations",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "AbracadaBar",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Screen Door General Store",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "okw",
+          "title": "Disney's Old Key West Resort",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "Olivia’s Café",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Good's Food to Go",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Gurgling Suitcase",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Conch Flats General Store",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "pvb",
+          "title": "Disney's Polynesian Villas & Bungalows",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "Kona Cafe",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Capt. Cook's",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Pineapple Lanai",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Barefoot Pool Bar",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Moana Mercantile",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Bou-tiki",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "riv",
+          "title": "Disney’s Riviera Resort",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "Topolino’s Terrace (includes modified Character Dining)",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Primo Piatto",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Le Petit Café",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Bar Riva",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "La Boutique",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "ssr",
+          "title": "Disney's Saratoga Springs Resort & Spa",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "The Artist’s Palette",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Paddock Grill",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "On the Rocks Pool Bar",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Artist’s Palette",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "gfv",
+          "title": "The Villas at Disney's Grand Floridian Resort & Spa",
+          "reopenDate": "2020-06-22 09:00-04:00",
+          "icon": "village",
+          "content": {
+            "Dining": [
+              {
+                "name": "Grand Floridian Cafe",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Gasparilla Island Grill",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Enchanted Rose",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Beaches Pool Bar & Grill",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "M. Mouse Mercantile",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Sandy Cove Gifts and Sundries",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "references": [
+      {
+        "id": "references",
+        "title": "References",
+        "reopenDate": "",
+        "icon": "",
+        "content": {
+          "Link": [
+            {
+              "name": "https://disneyworld.disney.go.com/experience-updates/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyworld.disney.go.com/experience-updates/parks/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyworld.disney.go.com/experience-updates/resorts/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyworld.disney.go.com/experience-updates/dine/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyworld.disney.go.com/experience-updates/park-reservations/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyworld.disney.go.com/experience-updates/events-tours-extras/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyworld.disney.go.com/experience-updates/annual-passes/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyworld.disney.go.com/travel-information/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyparks.disney.go.com/blog/2020/06/attractions-and-entertainment-details-for-phased-reopening-of-walt-disney-world-theme-parks/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyparks.disney.go.com/blog/2020/06/introducing-the-disney-park-pass-system-for-reserving-theme-park-visits-to-walt-disney-world-resort/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyparks.disney.go.com/blog/2020/06/update-on-seasonal-events-at-walt-disney-world-resort/",
+              "icon": "link",
+              "status": 5
+            },
+            {
+              "name": "https://disneyworld.disney.go.com/faq/dining-reservations/advance-reservation-window/",
+              "icon": "link",
+              "status": 5
+            }
+          ]
+        }
+      }
+    ]
+  }

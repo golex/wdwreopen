@@ -9,22 +9,17 @@ import {GiTicket} from 'react-icons/gi';
 import IconPicker from "./iconpicker";
 
 const openStatusMappings = [
-    {css: "wdw-item wdw-item-closed", name: "Closed"},
-    {css: "wdw-item wdw-item-open", name:"Open"},
-    {css: "wdw-item wdw-item-unknown", name:"Unknown"},
-    {css: "wdw-item wdw-item-closed", name:"Suspended"},
-    {css: "wdw-item wdw-item-closed", name:"Required"},
-    {css: "wdw-item wdw-item-link", name:""},
+    {css: "wdw-item wdw-item-closed even:bg-gray-100", name: "Closed"},
+    {css: "wdw-item wdw-item-open even:bg-gray-100", name:"Open"},
+    {css: "wdw-item wdw-item-unknown even:bg-gray-100", name:"Unknown"},
+    {css: "wdw-item wdw-item-closed even:bg-gray-100", name:"Suspended"},
+    {css: "wdw-item wdw-item-closed even:bg-gray-100", name:"Required"},
+    {css: "wdw-item wdw-item-link even:bg-gray-100", name:""},
+    {css: "wdw-item wdw-item-partial even:bg-gray-100", name:"Partial"},
 ];
 
-const closedStatusMappings = [
-    {css: "wdw-item wdw-item-closed", name: "Closed"},
-    {css: "wdw-item wdw-item-open", name:"Confirmed"},
-    {css: "wdw-item wdw-item-unknown", name:"Unknown"},
-    {css: "wdw-item wdw-item-closed", name:"Suspended"},
-    {css: "wdw-item wdw-item-closed", name:"Required"},
-    {css: "wdw-item wdw-item-link", name:""},
-];
+ const closedStatusMappings = [...openStatusMappings];
+ closedStatusMappings[1] = {css: "wdw-item wdw-item-open even:bg-gray-100", name:"Confirmed"};
 
 function renderSectionTabList(content) {
     return (
@@ -39,7 +34,7 @@ function renderSectionTabList(content) {
 function renderItemLabel(name) {
     if(name.startsWith("http")) {
         return (
-            <a href={name} className="break-all md:break-normal">{name}</a>
+            <a href={name} className="break-all md:break-normal" target="_blank" rel="noreferrer">{name}</a>
         )
     } else {
         return (
@@ -51,7 +46,7 @@ function renderItemLabel(name) {
 function renderItemStatus(status) {
     if(status) {
         return (
-            <td className="w-20 md:w-20 p-1 font-normal">
+            <td className="w-20 md:w-24 p-1 font-normal">
                 {status}
             </td>
         )

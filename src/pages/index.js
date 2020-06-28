@@ -5,14 +5,14 @@ import moment from 'moment';
 
 // Components
 import SEO from "../components/seo";
-import Content from '../components/content'
+import Content from '../../content.json'
 import SectionHeader from '../components/sectionheader'
 import SectionCard from '../components/sectioncard'
 import IconPicker from '../components/iconpicker'
 import {RiTwitterLine}from 'react-icons/ri';
 
 function Info() {
-    var content = Content()
+    var content = Content;
     const data = useStaticQuery(graphql`
         query {
             currentBuildDate {

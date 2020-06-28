@@ -3,7 +3,7 @@ import React from "react";
 
 function SectionHeader({name, info}) {
     return (
-        <div className="border-b border-gray-200 pb-3 mb-5">
+        <div className="border-b-2 border-gray-800 pb-1 mb-6">
             <div className="text-2xl font-normal text-gray-900 tracking-wide">
                 {name}
             </div>
