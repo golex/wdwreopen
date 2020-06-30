@@ -23,10 +23,10 @@ function Info() {
     const buildTimestamp = data.currentBuildDate.currentDate;
     //console.log(content);
     return (
-        <div className="flex flex-col font-sans bg-gray-100">
+        <div className="flex flex-col font-sans bg-gray-100 text-gray-900">
             <SEO title="Is Disney World Open Yet?"/>
             <div className="flex-1 container mx-auto px-4 py-6">
-                <h1 className="flex items-center justify-center text-3xl md:text-5xl font-light text-gray-900">
+                <h1 className="flex items-center justify-center text-3xl md:text-5xl font-light">
                     <IconPicker name="WDW" className="w-12 h-12 mr-5 fill-current"/>
                     Is Disney World Open Yet?
                 </h1>                

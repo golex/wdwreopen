@@ -104,7 +104,7 @@ function RenderSectionCard({reopenDate, children}) {
 
 RenderSectionCard.propTypes = {
     reopenDate: PropTypes.object,
-    children : PropTypes.element,
+    children : PropTypes.node,
 }
 
 /*

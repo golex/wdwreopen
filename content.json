@@ -46,6 +46,28 @@
         }
       },
       {
+        "id": "reservations",
+        "title": "Park Pass Reservations",
+        "reopenDate": "",
+        "icon": "calendar",
+        "content": {
+          "Next Available": [
+            {
+              "name": "Next Available Park Pass Reservations",
+              "description": "The following dates indicate the earliest that a Park Pass for the specific park and guest type is available:",
+              "custom":"nextAvailableDate"
+            }
+          ],
+          "Last Unavailable": [
+            {
+              "name": "Last Unavailable Park Pass Reservations",
+              "description": "The following dates indicate the latest date that a Park Pass for the specific park and guest type is not available. The is useful for understanding the worst case lead time you need to plan on when making your reservations:",
+              "custom":"latestUnavailableDate"
+            }
+          ]
+        }
+      },
+      {
         "id": "mk",
         "title": "Magic Kingdom",
         "reopenDate": "2020-07-11 09:00-04:00",
@@ -1061,7 +1083,7 @@
               "status": 1
             },
             {
-              "name": "Garden Grill Restaurant",
+              "name": "Garden Grill Restaurant (includes modified Character Dining)",
               "icon": "food",
               "status": 1
             },
@@ -1751,11 +1773,6 @@
               "status": 1
             },
             {
-              "name": "Oga's Cantina at the Walt Disney World Resort",
-              "icon": "food",
-              "status": 1
-            },
-            {
               "name": "Peevy’s Polar Pipeline",
               "icon": "food",
               "status": 1
@@ -1842,6 +1859,11 @@
             },
             {
               "name": "Neighborhood Bakery",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Oga's Cantina at the Walt Disney World Resort",
               "icon": "food",
               "status": 2
             },
@@ -2038,17 +2060,17 @@
               "status": 1
             },
             {
+              "name": "Miniature Golf",
+              "icon": "map",
+              "status": 1
+            },
+            {
               "name": "Blizzard Beach",
               "icon": "map",
               "status": 0
             },
             {
               "name": "ESPN Wide World of Sports Complex",
-              "icon": "map",
-              "status": 0
-            },
-            {
-              "name": "Miniature Golf",
               "icon": "map",
               "status": 0
             },

@@ -16,6 +16,7 @@
     "gatsby-plugin-react-helmet": "3.3.4",
     "gatsby-plugin-sharp": "2.6.11",
     "gatsby-plugin-svgr": "^2.0.2",
+    "gatsby-source-mongodb": "^2.3.6",
     "moment": "^2.27.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
