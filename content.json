@@ -33,7 +33,7 @@
               "status": 3
             },
             {
-              "name": "Park Reservations",
+              "name": "Park Pass Reservations",
               "icon": "calendar",
               "status": 4
             },
@@ -58,10 +58,10 @@
               "custom":"nextAvailableDate"
             }
           ],
-          "Final Unavailable": [
+          "Planning": [
             {
-              "name": "Final Unavailable Park Pass Reservations",
-              "description": "This data shows how far out the final date of unavailability is for the specific park and guest type. This provides an indication of the ideal lead time to target when making your reservations:",
+              "name": "Park Pass Reservation Planning",
+              "description": "This data shows how far in advance the final date of unavailability is for the specific park and guest type. This provides an indication of the ideal number of days in advance to make your reservations:",
               "custom":"latestUnavailableDate"
             }
           ]
