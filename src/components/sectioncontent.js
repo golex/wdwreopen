@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Moment from "moment";
+import { useStaticQuery, graphql } from "gatsby";
 import "react-tabs/style/react-tabs.css";
 import "../css/custom.css";
 
 // Icons
 import { GiTicket } from "react-icons/gi";
 import IconPicker from "./iconpicker";
-import { useStaticQuery } from "gatsby";
 
 const openStatusMappings = [
     { css: "wdw-item wdw-item-closed even:bg-gray-100", name: "Closed" },
@@ -25,6 +25,25 @@ closedStatusMappings[1] = {
     css: "wdw-item wdw-item-open even:bg-gray-100",
     name: "Confirmed",
 };
+
+function getDateBGColor(date) {
+    const reopenDate = Moment("2020-07-14");
+    const now = Moment();
+    var daysTillDate = date.diff(now, "days");
+    if (now.isBefore(reopenDate)) {
+        daysTillDate -= reopenDate.diff(now, "days");
+    }
+
+    if (daysTillDate <= 7) {
+        return "bg-green-100";
+    } else if (daysTillDate <= 14) {
+        return "bg-yellow-100";
+    } else if (daysTillDate <= 21) {
+        return "bg-orange-100";
+    } else {
+        return "bg-red-100";
+    }
+}
 
 function renderSectionTabList(content) {
     return (
@@ -90,14 +109,21 @@ function renderCustomSectionContent(custom) {
         nodeOrder.map((node) => {
             var date = Moment(data[node][dateField][index]);
             if (date.isBefore(dateCutoff[index])) {
-                parkData.dates.push("None");
+                parkData.dates.push( {name: "N/A"});
             } else {
-                parkData.dates.push(date.format("MMMM D"));
+                var dateString;
+                if(custom.custom == 'latestUnavailableDate') {
+                    const daysUntil = date.diff(Moment(), 'days');
+                    dateString = daysUntil + ' days';
+                } else {
+                    dateString = date.format("MMMM D")
+                }
+                parkData.dates.push({ name: dateString, color: getDateBGColor(date) });
             }
         });
         parksData.push(parkData);
     });
-    console.log(parksData);
+    //console.log(parksData);
 
     return (
         <div className="w-full px-4 py-4">
@@ -117,9 +143,9 @@ function renderCustomSectionContent(custom) {
                     {parksData.map((parkData, index) => (
                         <tr className="text-sm md:text-base border" key={index}>
                             <td className="p-1 border font-medium">{parkData.name}</td>
-                            <td className="p-1 border">{parkData.dates[0]}</td>
-                            <td className="p-1 border">{parkData.dates[1]}</td>
-                            <td className="p-1 border">{parkData.dates[2]}</td>
+                            <td className={'p-1 border ' + parkData.dates[0].color}>{parkData.dates[0].name}</td>
+                            <td className={'p-1 border ' + parkData.dates[1].color}>{parkData.dates[1].name}</td>
+                            <td className={'p-1 border ' + parkData.dates[2].color}>{parkData.dates[2].name}</td>
                         </tr>
                     ))}
                 </tbody>

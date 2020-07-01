@@ -58,10 +58,10 @@
               "custom":"nextAvailableDate"
             }
           ],
-          "Last Unavailable": [
+          "Final Unavailable": [
             {
-              "name": "Last Unavailable Park Pass Reservations",
-              "description": "The following dates indicate the latest date that a Park Pass for the specific park and guest type is not available. The is useful for understanding the worst case lead time you need to plan on when making your reservations:",
+              "name": "Final Unavailable Park Pass Reservations",
+              "description": "This data shows how far out the final date of unavailability is for the specific park and guest type. This provides an indication of the ideal lead time to target when making your reservations:",
               "custom":"latestUnavailableDate"
             }
           ]
