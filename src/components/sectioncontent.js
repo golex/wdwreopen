@@ -151,7 +151,7 @@ function renderCustomSectionContent(custom) {
                 </tbody>
             </table>
             <a
-                href="https://disneyworld.disney.go.com/availability-calendar/"
+                href="https://disneyworld.disney.go.com/availability-calendar/?segments=resort,passholder,tickets&defaultSegment=resort"
                 className="wdw-item wdw-item-link"
                 target="_blank"
                 rel="noreferrer"
