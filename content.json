@@ -1365,6 +1365,11 @@
               "status": 1
             },
             {
+              "name": "Marketplace in the Medina",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Mexico Indoor Plaza",
               "icon": "shop",
               "status": 1
@@ -1506,11 +1511,6 @@
             },
             {
               "name": "Lords and Ladies",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Marketplace in the Medina",
               "icon": "shop",
               "status": 2
             },
