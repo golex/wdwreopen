@@ -1773,6 +1773,11 @@
               "status": 1
             },
             {
+              "name": "Oga's Cantina at the Walt Disney World Resort",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Peevy’s Polar Pipeline",
               "icon": "food",
               "status": 1
@@ -1859,11 +1864,6 @@
             },
             {
               "name": "Neighborhood Bakery",
-              "icon": "food",
-              "status": 2
-            },
-            {
-              "name": "Oga's Cantina at the Walt Disney World Resort",
               "icon": "food",
               "status": 2
             },
