@@ -1773,7 +1773,7 @@
               "status": 1
             },
             {
-              "name": "Oga's Cantina at the Walt Disney World Resort",
+              "name": "Oga's Cantina (includes modified experience)",
               "icon": "food",
               "status": 1
             },
@@ -2609,11 +2609,6 @@
               },
               {
                 "name": "Le Petit Café",
-                "icon": "food",
-                "status": 1
-              },
-              {
-                "name": "Bar Riva",
                 "icon": "food",
                 "status": 1
               }
