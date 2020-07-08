@@ -10,10 +10,6 @@ module.exports = {
     author: `@golex`,
   },
   plugins: [
-    {
-      resolve: `gatsby-source-mongodb`,
-      options: { dbName: `wdw`, collection: `reservation_summary` },
-    },
     `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-svgr`,

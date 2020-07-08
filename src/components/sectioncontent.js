@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Moment from "moment";
 import { useStaticQuery, graphql } from "gatsby";
@@ -81,6 +81,8 @@ function renderCustomSectionContent(custom) {
     const nodeOrder = [1, 0, 2];
     const parks = ["Magic Kingdom", "Animal Kingdom", "Epcot", "Hollywood Studios"];
     const dateCutoff = [Moment("2020-07-11"), Moment("2020-07-11"), Moment("2020-07-15"), Moment("2020-07-15")];
+
+    /*
     const query = useStaticQuery(
         graphql`
             query {
@@ -96,33 +98,42 @@ function renderCustomSectionContent(custom) {
             }
         `
     );
+    */
+    const [parksData, setParksData] = useState([]);
+    useEffect(() => {
+        fetch(`https://isdisneyworldopenyet.com/reservations.json`)
+            .then((response) => response.json())
+            .then((data) => {
+                // Convert this data into a renderable format
+                const dateField = custom.custom;
+                const newParksData = [];
+                parks.map((name, index) => {
+                    const parkData = {
+                        name,
+                        dates: [],
+                    };
+                    nodeOrder.map((node) => {
+                        var date = Moment(data[node][dateField][index]);
+                        if (date.isBefore(dateCutoff[index])) {
+                            parkData.dates.push({ name: "N/A" });
+                        } else {
+                            var dateString;
+                            if (custom.custom == "latestUnavailableDate") {
+                                const daysUntil = date.diff(Moment(), "days");
+                                dateString = daysUntil + " days";
+                            } else {
+                                dateString = date.format("MMMM D");
+                            }
+                            parkData.dates.push({ name: dateString, color: getDateBGColor(date) });
+                        }
+                    });
+                    newParksData.push(parkData);
+                });
 
-    // Convert this data into a renderable format
-    const data = query.allMongodbWdwReservationSummary.nodes;
-    const dateField = custom.custom;
-    const parksData = [];
-    parks.map((name, index) => {
-        const parkData = {
-            name,
-            dates: [],
-        };
-        nodeOrder.map((node) => {
-            var date = Moment(data[node][dateField][index]);
-            if (date.isBefore(dateCutoff[index])) {
-                parkData.dates.push( {name: "N/A"});
-            } else {
-                var dateString;
-                if(custom.custom == 'latestUnavailableDate') {
-                    const daysUntil = date.diff(Moment(), 'days');
-                    dateString = daysUntil + ' days';
-                } else {
-                    dateString = date.format("MMMM D")
-                }
-                parkData.dates.push({ name: dateString, color: getDateBGColor(date) });
-            }
-        });
-        parksData.push(parkData);
-    });
+                setParksData(newParksData);
+            });
+    }, []);
+
     //console.log(parksData);
 
     return (
@@ -143,9 +154,9 @@ function renderCustomSectionContent(custom) {
                     {parksData.map((parkData, index) => (
                         <tr className="text-sm md:text-base border" key={index}>
                             <td className="p-1 border font-medium">{parkData.name}</td>
-                            <td className={'p-1 border ' + parkData.dates[0].color}>{parkData.dates[0].name}</td>
-                            <td className={'p-1 border ' + parkData.dates[1].color}>{parkData.dates[1].name}</td>
-                            <td className={'p-1 border ' + parkData.dates[2].color}>{parkData.dates[2].name}</td>
+                            <td className={"p-1 border " + parkData.dates[0].color}>{parkData.dates[0].name}</td>
+                            <td className={"p-1 border " + parkData.dates[1].color}>{parkData.dates[1].name}</td>
+                            <td className={"p-1 border " + parkData.dates[2].color}>{parkData.dates[2].name}</td>
                         </tr>
                     ))}
                 </tbody>
