@@ -8,9 +8,9 @@
         "content": {
           "Misc": [
             {
-              "name": "Ticket Sales (2021 available)",
+              "name": "Ticket Sales",
               "icon": "ticket",
-              "status": 6
+              "status": 7
             },
             {
               "name": "FastPass+",

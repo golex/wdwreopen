@@ -18,6 +18,7 @@ const openStatusMappings = [
     { css: "wdw-item wdw-item-closed even:bg-gray-100", name: "Required" },
     { css: "wdw-item wdw-item-link even:bg-gray-100", name: "" },
     { css: "wdw-item wdw-item-partial even:bg-gray-100", name: "Partial" },
+    { css: "wdw-item wdw-item-open even:bg-gray-100", name: "Available" },
 ];
 
 const closedStatusMappings = [...openStatusMappings];
