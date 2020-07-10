@@ -683,11 +683,6 @@
               "status": 1
             },
             {
-              "name": "Dawa Bar",
-              "icon": "food",
-              "status": 1
-            },
-            {
               "name": "Dino-Bite Snacks",
               "icon": "food",
               "status": 1
@@ -748,11 +743,6 @@
               "status": 1
             },
             {
-              "name": "Thirsty River Bar & Trek Snacks",
-              "icon": "food",
-              "status": 1
-            },
-            {
               "name": "Tiffins Restaurant",
               "icon": "food",
               "status": 1
@@ -774,6 +764,11 @@
             },
             {
               "name": "Caravan Road",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Dawa Bar",
               "icon": "food",
               "status": 2
             },
@@ -814,6 +809,11 @@
             },
             {
               "name": "Terra Treats",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Thirsty River Bar & Trek Snacks",
               "icon": "food",
               "status": 2
             },
@@ -1803,11 +1803,6 @@
               "status": 1
             },
             {
-              "name": "Sunshine Day Bar",
-              "icon": "food",
-              "status": 1
-            },
-            {
               "name": "The Trolley Car Café",
               "icon": "food",
               "status": 1
@@ -1864,6 +1859,11 @@
             },
             {
               "name": "Neighborhood Bakery",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Sunshine Day Bar",
               "icon": "food",
               "status": 2
             },
@@ -2123,7 +2123,27 @@
           "title": "Disney's Pop Century Resort",
           "reopenDate": "2020-07-10 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "Everything POP Shopping & Dining",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Petals Pool Bar",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Everything POP Shopping & Dining",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         },
         {
           "id": "fw",
@@ -2258,7 +2278,57 @@
           "title": "Disney's Contemporary Resort",
           "reopenDate": "2020-07-10 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "California Grill",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Chef Mickey's",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Contempo Café",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Cove Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Sand Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Wave… of American Flavors ",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Wave Lounge",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Bayview Gifts",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Fantasia Market ",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         },
         {
           "id": "gf",
@@ -2300,12 +2370,12 @@
           "content": {
             "Dining": [
               {
-                "name": "The Wave… of American Flavors ",
+                "name": "California Grill",
                 "icon": "food",
                 "status": 1
               },
               {
-                "name": "The Wave Lounge",
+                "name": "Chef Mickey's",
                 "icon": "food",
                 "status": 1
               },
@@ -2316,6 +2386,21 @@
               },
               {
                 "name": "Cove Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Sand Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Wave… of American Flavors ",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Wave Lounge",
                 "icon": "food",
                 "status": 1
               }
