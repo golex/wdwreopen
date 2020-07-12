@@ -81,7 +81,7 @@ function renderItemStatus(status) {
 function renderCustomSectionContent(custom) {
     const nodeOrder = [1, 0, 2];
     const parks = ["Magic Kingdom", "Animal Kingdom", "Epcot", "Hollywood Studios"];
-    const dateCutoff = [Moment("2020-07-11"), Moment("2020-07-11"), Moment("2020-07-15"), Moment("2020-07-15")];
+    const dateCutoff = [Moment(), Moment(), Moment("2020-07-15"), Moment("2020-07-15")];
 
     /*
     const query = useStaticQuery(
@@ -102,6 +102,8 @@ function renderCustomSectionContent(custom) {
     */
     const [parksData, setParksData] = useState([]);
     useEffect(() => {
+        //const data = [{"_id":"5efaa8afe8a50d656140ac70","type":"passholder","nextAvailableDate":["2020-08-05","2020-08-04","2020-08-03","2020-08-19"],"latestUnavailableDate":["2020-09-19","2020-09-12","2020-08-29","2020-09-19"],"lastModified":"2020-07-10T13:00:02.446Z"},{"_id":"5efaaee7e8a50d656140ac71","type":"resort","nextAvailableDate":["2020-07-11","2020-07-11","2020-07-15","2020-07-26"],"latestUnavailableDate":["2020-07-10","2020-07-12","2020-07-14","2020-07-25"],"lastModified":"2020-07-10T13:00:02.224Z"},{"_id":"5efaaee7e8a50d656140ac72","type":"tickets","nextAvailableDate":["2020-07-12","2020-07-11","2020-07-15","2020-07-22"],"latestUnavailableDate":["2020-07-11","2020-07-10","2020-07-14","2020-07-23"],"lastModified":"2020-07-10T13:00:02.661Z"}];
+        
         fetch(`https://isdisneyworldopenyet.com/reservations.json`)
             .then((response) => response.json())
             .then((data) => {
@@ -121,7 +123,13 @@ function renderCustomSectionContent(custom) {
                             var dateString;
                             if (custom.custom == "latestUnavailableDate") {
                                 const daysUntil = date.diff(Moment(), "days");
-                                dateString = daysUntil + " days";
+                                if(daysUntil == 0) {
+                                    dateString = "Same day";
+                                } else if(daysUntil == 1) {
+                                    dateString = "Next day";
+                                } else {
+                                    dateString = daysUntil + " days";
+                                }
                             } else {
                                 dateString = date.format("MMMM D");
                             }
