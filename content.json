@@ -223,12 +223,12 @@
             {
               "name": "Enchanted Tales with Belle",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Monsters, Inc. Laugh Floor",
               "icon": "ride",
-              "status": 2
+              "status": 0
             }
           ],
           "Dining": [
@@ -658,17 +658,17 @@
             {
               "name": "Festival of the Lion King",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Primeval Whirl",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "The Boneyard",
               "icon": "ride",
-              "status": 2
+              "status": 0
             }
           ],
           "Dining": [
@@ -2682,6 +2682,11 @@
           "icon": "village",
           "content": {
             "Dining": [
+              {
+                "name": "Bar Riva",
+                "icon": "food",
+                "status": 1
+              },
               {
                 "name": "Topolino’s Terrace (includes modified Character Dining)",
                 "icon": "food",
