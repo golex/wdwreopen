@@ -106,8 +106,8 @@ function renderCustomSectionContent(custom) {
     const [parksData, setParksData] = useState([]);
     useEffect(() => {
         //const data = [{"_id":"5efaa8afe8a50d656140ac70","type":"passholder","nextAvailableDate":["2020-08-17","2020-08-06","2020-08-03","2020-08-24"],"latestUnavailableDate":["2020-09-26","2020-09-12","2020-08-29","2020-09-26"],"lastModified":"2020-07-12T03:00:03.506Z"},{"_id":"5efaaee7e8a50d656140ac71","type":"resort","nextAvailableDate":["2020-07-11","2020-07-11","2020-07-15","2020-07-26"],"latestUnavailableDate":[null,null,"2020-07-14","2020-07-25"],"lastModified":"2020-07-12T03:00:03.222Z"},{"_id":"5efaaee7e8a50d656140ac72","type":"tickets","nextAvailableDate":["2020-07-11","2020-07-11","2020-07-15","2020-07-24"],"latestUnavailableDate":[null,null,"2020-07-14","2020-07-23"],"lastModified":"2020-07-12T03:00:03.708Z"}];
-
-        fetch(`https://isdisneyworldopenyet.com/reservations.json`)
+        const random=Math.floor(Math.random() * 100000); // <- avoid caching the lazy way
+        fetch(`https://isdisneyworldopenyet.com/reservations.json?${random}`)
             .then((response) => response.json())
             .then((data) => {
                 // Convert this data into a renderable format
