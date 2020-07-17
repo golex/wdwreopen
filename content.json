@@ -661,11 +661,6 @@
               "status": 0
             },
             {
-              "name": "Primeval Whirl",
-              "icon": "ride",
-              "status": 0
-            },
-            {
               "name": "The Boneyard",
               "icon": "ride",
               "status": 0
@@ -1043,12 +1038,12 @@
             {
               "name": "Turtle Talk with Crush",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Voices of Liberty",
               "icon": "ride",
-              "status": 2
+              "status": 0
             }
           ],
           "Dining": [
@@ -1688,37 +1683,37 @@
             {
               "name": "Beauty and the Beast - Live on Stage",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Disney Junior Dance Party!",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "For the First Time In Forever: A Frozen Sing-Along Celebration",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Indiana Jones Epic Stunt Spectacular!",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Jedi Training: Trials of the Temple",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Savi's Workshop",
               "icon": "ride",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Voyage of the Little Mermaid",
               "icon": "ride",
-              "status": 2
+              "status": 0
             }
           ],
           "Dining": [
