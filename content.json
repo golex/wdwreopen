@@ -2109,7 +2109,7 @@
         {
           "id": "aoa",
           "title": "Disney's Art of Animation Resort",
-          "reopenDate": "2020-08-12 09:00-04:00",
+          "reopenDate": "2020-11-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
@@ -2184,7 +2184,27 @@
           "title": "Disney's Caribbean Beach Resort",
           "reopenDate": "2020-07-29 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+            {
+              "name": "Centertown Market",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Banana Cabana",
+              "icon": "food",
+              "status": 1
+            }
+          ],
+          "Shopping": [
+            {
+              "name": "Calypso Trading Post",
+              "icon": "shop",
+              "status": 1
+            }
+          ]
+        }
         },
         {
           "id": "csr",
@@ -2257,14 +2277,14 @@
         {
           "id": "bc",
           "title": "Disney's Beach Club Resort",
-          "reopenDate": "2020-08-24 09:00-04:00",
+          "reopenDate": "2021-01-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
         {
           "id": "bw",
           "title": "Disney's BoardWalk Inn",
-          "reopenDate": "2020-10-01 09:00-04:00",
+          "reopenDate": "2021-01-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
@@ -2301,7 +2321,7 @@
                 "status": 1
               },
               {
-                "name": "The Wave… of American Flavors ",
+                "name": "The Wave… of American Flavors",
                 "icon": "food",
                 "status": 1
               },
@@ -2318,7 +2338,12 @@
                 "status": 1
               },
               {
-                "name": "Fantasia Market ",
+                "name": "Fantasia Market",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Market Place",
                 "icon": "shop",
                 "status": 1
               }
@@ -2336,7 +2361,7 @@
         {
           "id": "pvr",
           "title": "Disney's Polynesian Village Resort",
-          "reopenDate": "2020-08-12 09:00-04:00",
+          "reopenDate": "2020-10-04 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
@@ -2408,6 +2433,11 @@
               },
               {
                 "name": "Fantasia Market ",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Market Place",
                 "icon": "shop",
                 "status": 1
               }
@@ -2768,6 +2798,11 @@
               }
             ],
             "Shopping": [
+              {
+                "name": "Curiouser Clothiers",
+                "icon": "shop",
+                "status": 1
+              },
               {
                 "name": "M. Mouse Mercantile",
                 "icon": "shop",
