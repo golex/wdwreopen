@@ -1138,6 +1138,11 @@
               "status": 1
             },
             {
+              "name": "Les Halles Boulangerie-Patisserie",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Popcorn in Canada",
               "icon": "food",
               "status": 1
@@ -1229,11 +1234,6 @@
             },
             {
               "name": "Kringla Bakeri Og Kafe",
-              "icon": "food",
-              "status": 2
-            },
-            {
-              "name": "Les Halles Boulangerie-Patisserie",
               "icon": "food",
               "status": 2
             },
@@ -1356,6 +1356,11 @@
             },
             {
               "name": "La Bottega Italiana",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Les Vins de France",
               "icon": "shop",
               "status": 1
             },
@@ -1496,11 +1501,6 @@
             },
             {
               "name": "L'Esprit de la Provence",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Les Vins de France",
               "icon": "shop",
               "status": 2
             },
