@@ -1188,11 +1188,6 @@
               "status": 1
             },
             {
-              "name": "Tangierine Café",
-              "icon": "food",
-              "status": 1
-            },
-            {
               "name": "Taste of EPCOT International Food & Wine Festival",
               "icon": "food",
               "status": 1
@@ -1264,6 +1259,11 @@
             },
             {
               "name": "Takumi-Tei",
+              "icon": "food",
+              "status": 2
+            },
+            {
+              "name": "Tangierine Café",
               "icon": "food",
               "status": 2
             },
