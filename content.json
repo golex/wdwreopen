@@ -211,11 +211,6 @@
               "status": 1
             },
             {
-              "name": "Tomorrowland Transit Authority Peoplemover",
-              "icon": "ride",
-              "status": 1
-            },
-            {
               "name": "Under the Sea ~ Journey of The Little Mermaid",
               "icon": "ride",
               "status": 1
@@ -227,6 +222,11 @@
             },
             {
               "name": "Monsters, Inc. Laugh Floor",
+              "icon": "ride",
+              "status": 0
+            },
+            {
+              "name": "Tomorrowland Transit Authority Peoplemover",
               "icon": "ride",
               "status": 0
             }
@@ -315,67 +315,67 @@
             {
               "name": "Casey's Corner",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Cheshire Café",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Cinderella's Royal Table",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Columbia Harbour House",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Cool Ship",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Gaston's Tavern",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Golden Oak Outpost",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "The Diamond Horseshoe",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "The Friar's Nook",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "The Lunching Pad",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Tomorrowland Terrace Restaurant",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Tortuga Tavern",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Westward Ho",
               "icon": "food",
-              "status": 2
+              "status": 0
             }
           ],
           "Shopping": [
@@ -410,6 +410,11 @@
               "status": 1
             },
             {
+              "name": "Disney Clothiers",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Emporium",
               "icon": "shop",
               "status": 1
@@ -426,6 +431,16 @@
             },
             {
               "name": "Island Supply by Sunglass Hut",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "La Princesa de Cristal",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Liberty Square Portrait Gallery",
               "icon": "shop",
               "status": 1
             },
@@ -495,7 +510,32 @@
               "status": 1
             },
             {
+              "name": "Agrabah Bazaar",
+              "icon": "shop",
+              "status": 0
+            },
+            {
               "name": "Bibbidi Bobbidi Boutique",
+              "icon": "shop",
+              "status": 0
+            },
+            {
+              "name": "Big Top Souvenirs",
+              "icon": "shop",
+              "status": 0
+            },
+            {
+              "name": "Bonjour! Village Gifts",
+              "icon": "shop",
+              "status": 0
+            },
+            {
+              "name": "Briar Patch",
+              "icon": "shop",
+              "status": 0
+            },
+            {
+              "name": "Casey Jr. RailRoad Mercantile",
               "icon": "shop",
               "status": 0
             },
@@ -505,69 +545,29 @@
               "status": 0
             },
             {
-              "name": "Agrabah Bazaar",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Big Top Souvenirs",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Bonjour! Village Gifts",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Briar Patch",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Casey Jr. RailRoad Mercantile",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Disney Clothiers",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "La Princesa de Cristal",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Liberty Square Portrait Gallery",
-              "icon": "shop",
-              "status": 2
-            },
-            {
               "name": "Merchant of Venus",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Newsstand",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Prairie Outpost & Supply",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "The Pirates League",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Ursa's Major Minor Mart",
               "icon": "shop",
-              "status": 2
+              "status": 0
             }
           ]
         }
@@ -760,67 +760,67 @@
             {
               "name": "Caravan Road",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Dawa Bar",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Dino Diner",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Drinkwallah",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Eight Spoon Café",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Kusafiri Coffee Shop & Bakery",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Mahindi",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Pizzafari",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "The Smiling Crocodile",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Terra Treats",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Thirsty River Bar & Trek Snacks",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Tusker House Restaurant",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Warung Outpost",
               "icon": "food",
-              "status": 2
+              "status": 0
             }
           ],
           "Shopping": [
@@ -875,6 +875,11 @@
               "status": 1
             },
             {
+              "name": "Riverside Depot",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Serka Zong Bazaar",
               "icon": "shop",
               "status": 1
@@ -890,49 +895,44 @@
               "status": 1
             },
             {
+              "name": "Ziwani Traders",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Boneyard Cart",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Colors of Mo'ara",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Island Mercantile",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Mariya's Souvenirs",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Riverside Depot",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "The Outpost Shop",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Yak & Yeti™ Bhaktapur Market",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Ziwani Traders",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Zuri's Sweets Shop",
               "icon": "shop",
-              "status": 2
+              "status": 0
             }
           ]
         }
@@ -1210,87 +1210,87 @@
             {
               "name": "Akershus Royal Banquet Hall",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Block & Hans",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Chefs de France",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Cool Wash",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Kringla Bakeri Og Kafe",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Lotus Blossom Café",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Monsieur Paul",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Nine Dragons Restaurant",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Restaurant Marrakesh",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Sommerfest",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Takumi-Tei",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Tangierine Café",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Teppan Edo",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Tokyo Dining",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Tutto Gusto Wine Cellar",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Tutto Italia Ristorante",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Yorkshire County Fish Shop",
               "icon": "food",
-              "status": 2
+              "status": 0
             }
           ],
           "Shopping": [
@@ -1345,6 +1345,16 @@
               "status": 1
             },
             {
+              "name": "Glaskunst",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Good Fortune Gifts",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "ImageWorks",
               "icon": "shop",
               "status": 1
@@ -1355,12 +1365,37 @@
               "status": 1
             },
             {
+              "name": "Kunstarbeit in Kristall",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "La Bottega Italiana",
               "icon": "shop",
               "status": 1
             },
             {
+              "name": "La Gemma Elegante",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "La Princesa de Cristal",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "L'Esprit de la Provence",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Les Vins de France",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Lords and Ladies",
               "icon": "shop",
               "status": 1
             },
@@ -1395,6 +1430,11 @@
               "status": 1
             },
             {
+              "name": "Plaza de los Amigos",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Port of Entry",
               "icon": "shop",
               "status": 1
@@ -1405,12 +1445,42 @@
               "status": 1
             },
             {
+              "name": "Ring Carvers",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Sea Base Alpha Gift Shop",
               "icon": "shop",
               "status": 1
             },
             {
+              "name": "Souk-al-Magreb",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Souvenirs de France",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Sportsman's Shoppe",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Stein Haus",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Strollers & Wheelchairs",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Tangier Traders",
               "icon": "shop",
               "status": 1
             },
@@ -1421,6 +1491,21 @@
             },
             {
               "name": "Test Track Simporium",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "The Brass Bazaar",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "The Fjording",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "The Queen's Table",
               "icon": "shop",
               "status": 1
             },
@@ -1437,172 +1522,87 @@
             {
               "name": "Casablanca Carpets",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Das Kaufhaus",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Der Teddybar",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Die Weihnachts Ecke",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "El Ranchito del Norte",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Glaskunst",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Good Fortune Gifts",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Il Bel Cristallo",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Kunstarbeit in Kristall",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "La Princesa de Cristal",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "La Signature",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "La Gemma Elegante",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "La Tienda Encantada",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "L'Esprit de la Provence",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Lords and Ladies",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Northwest Mercantile",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Plaza de los Amigos",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Plume et Palette",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Ring Carvers",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Souk-al-Magreb",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Souvenirs de France",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Sportsman's Shoppe",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Stein Haus",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Tangier Traders",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "The Brass Bazaar",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "The Crown & Crest",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "The Fjording",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "The Queen's Table",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "The Toy Soldier",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Trading Post",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Village Traders",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Volkskunst",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Wandering Reindeer",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Weinkeller",
               "icon": "shop",
-              "status": 2
+              "status": 0
             }
           ]
         }
@@ -1805,77 +1805,87 @@
             {
               "name": "ABC Commissary",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Catalina Eddie's",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Dockside Diner",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Epic Eats",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Fairfax Fare",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Hollywood Scoops",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Hollywood & Vine",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Kat Saka's Kettle",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "KRNR The Rock Station",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Market",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Neighborhood Bakery",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Sunshine Day Bar",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Tune-In Lounge",
               "icon": "food",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Woody's Lunch Box",
               "icon": "food",
-              "status": 2
+              "status": 0
             }
           ],
           "Shopping": [
             {
+              "name": "Black Spire Outfitters",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Celebrity 5 & 10",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Creature Stall",
               "icon": "shop",
               "status": 1
             },
@@ -1925,6 +1935,11 @@
               "status": 1
             },
             {
+              "name": "Oscar's Super Service",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Rock Around The Shop",
               "icon": "shop",
               "status": 1
@@ -1965,79 +1980,64 @@
               "status": 1
             },
             {
+              "name": "Toydarian Toymaker",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Beverly Sunset Boutique",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Black Spire Outfitters",
-              "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Creature Stall",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Disney Studio Store",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "First Order Cargo",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Frozen Fractal Gifts",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Indiana Jones Adventure Outpost",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "It's A Wonderful Shop",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Keystone Clothiers",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Launch Bay Cargo",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Oscar's Super Service",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Resistance Supply",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Sunset Ranch Pins and Souvenirs",
               "icon": "shop",
-              "status": 2
+              "status": 0
             },
             {
               "name": "Stage 1 Company Store",
               "icon": "shop",
-              "status": 2
-            },
-            {
-              "name": "Toydarian Toymaker",
-              "icon": "shop",
-              "status": 2
+              "status": 0
             }
           ]
         }
