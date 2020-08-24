@@ -9,7 +9,7 @@ import Content from "../../content.json";
 import SectionHeader from "../components/sectionheader";
 import SectionCard from "../components/sectioncard";
 import IconPicker from "../components/iconpicker";
-import { RiTwitterLine, RiRedditLine, RiFacebookCircleLine } from "react-icons/ri";
+import { RiTwitterLine, RiRedditLine, RiFacebookCircleLine, RiClipboardLine } from "react-icons/ri";
 import ScrollToTop from "../components/scrolltotop";
 import { FacebookShareButton, RedditShareButton, TwitterShareButton } from "react-share";
 
@@ -54,9 +54,12 @@ function Info() {
                     <div className="mb-1">
                         This information is only sourced from official Disney announcements made on public channels.
                     </div>
-                    <div className="text-sm text-gray-600">
+                    <div className="mb-1 text-sm text-gray-600">
                         This site is not affiliated in any way with the Walt Disney Company or any of its affiliates or
                         subsidiaries.
+                    </div>
+                    <div className="text-sm text-gray-600">
+                        I&apos;ll never place advertising on this page, but if you have a few minutes to spare I&apos;d appreciate <a className="underline" href="https://forms.gle/7f6zL8xFzKe5TpEy6" target="_blank" rel="noreferrer">your opinions on planning a Disney trip. <RiClipboardLine className="inline ml-1 w-5 h-5 fill-current" /></a>
                     </div>
                 </div>
                 <SectionHeader name="Theme Parks" />

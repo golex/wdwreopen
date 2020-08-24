@@ -1193,6 +1193,11 @@
               "status": 1
             },
             {
+              "name": "Teppan Edo",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Traveler’s Café",
               "icon": "food",
               "status": 1
@@ -1264,11 +1269,6 @@
             },
             {
               "name": "Tangierine Café",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Teppan Edo",
               "icon": "food",
               "status": 0
             },
@@ -2378,7 +2378,56 @@
           "reopenDate": "2020-08-24 09:00-04:00",
           "icon": "hotel",
           "tag": "nba",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "Ale & Compass Lounge",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Ale & Compass Restaurant",
+                "icon": "food",
+                "status": 1
+              },{
+                "name": "Beaches & Cream Soda Shop",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Beach Club Marketplace",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Hurricane Hanna’s Waterside Bar and Grill (bar only)",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Martha's Vineyard",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Market at Ale & Compass",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Beach Club Marketplace",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "The Market at Ale & Compass",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         }
       ],
       [
@@ -2560,7 +2609,16 @@
           "content": {
             "Dining": [
               {
-                "name": "Beaches and Cream Soda Shop",
+                "name": "Ale & Compass Lounge",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Ale & Compass Restaurant",
+                "icon": "food",
+                "status": 1
+              },{
+                "name": "Beaches & Cream Soda Shop",
                 "icon": "food",
                 "status": 1
               },
@@ -2570,7 +2628,17 @@
                 "status": 1
               },
               {
-                "name": "Martha’s Vineyard",
+                "name": "Hurricane Hanna’s Waterside Bar and Grill (bar only)",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Martha's Vineyard",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Market at Ale & Compass",
                 "icon": "food",
                 "status": 1
               }
@@ -2578,6 +2646,11 @@
             "Shopping": [
               {
                 "name": "Beach Club Marketplace",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "The Market at Ale & Compass",
                 "icon": "shop",
                 "status": 1
               }
@@ -2682,6 +2755,11 @@
               },
               {
                 "name": "Barefoot Pool Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Tambu Lounge",
                 "icon": "food",
                 "status": 1
               }
