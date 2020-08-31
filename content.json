@@ -2195,6 +2195,11 @@
               "name": "Banana Cabana",
               "icon": "food",
               "status": 1
+            },
+            {
+              "name": "Sebastian's Bistro",
+              "icon": "food",
+              "status": 0
             }
           ],
           "Shopping": [
@@ -2361,7 +2366,7 @@
         {
           "id": "pvr",
           "title": "Disney's Polynesian Village Resort",
-          "reopenDate": "2020-10-04 09:00-04:00",
+          "reopenDate": "2021-07-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
