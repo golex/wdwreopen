@@ -248,7 +248,17 @@
               "status": 1
             },
             {
+              "name": "Cinderella's Royal Table (Reopening 9/24)",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Cosmic Ray's Starlight Cafe",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Gaston's Tavern",
               "icon": "food",
               "status": 1
             },
@@ -323,22 +333,12 @@
               "status": 0
             },
             {
-              "name": "Cinderella's Royal Table",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Columbia Harbour House",
               "icon": "food",
               "status": 0
             },
             {
               "name": "Cool Ship",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Gaston's Tavern",
               "icon": "food",
               "status": 0
             },
@@ -1753,6 +1753,11 @@
               "status": 1
             },
             {
+              "name": "Hollywood & Vine (Reopens 9/25)",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Joffrey’s Coffee & Tea Company",
               "icon": "food",
               "status": 1
@@ -1829,11 +1834,6 @@
             },
             {
               "name": "Hollywood Scoops",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Hollywood & Vine",
               "icon": "food",
               "status": 0
             },

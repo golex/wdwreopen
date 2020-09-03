@@ -34,7 +34,7 @@ function Info() {
                 </h1>
                 <br />
 
-                <div className="bg-white shadow rounded-lg mb-6 p-3">
+                <div className="bg-white shadow rounded-lg mb-6 p-3 md:text-base text-sm">
                     <div className="mb-1 flex justify-between">
                         <div>
                             Last updated <div className="inline-block font-medium">{buildTimestamp}</div>.
@@ -43,10 +43,17 @@ function Info() {
                             <RedditShareButton url="https://isdisneyworldopenyet.com" title="Is Disney World Open Yet?">
                                 <RiRedditLine className="mx-1 w-6 h-6 fill-current" />
                             </RedditShareButton>
-                            <TwitterShareButton url="https://isdisneyworldopenyet.com" title="Is Disney World Open Yet?" related={["@golex"]}>
+                            <TwitterShareButton
+                                url="https://isdisneyworldopenyet.com"
+                                title="Is Disney World Open Yet?"
+                                related={["@golex"]}
+                            >
                                 <RiTwitterLine className="mx-1 w-6 h-6 fill-current" />
                             </TwitterShareButton>
-                            <FacebookShareButton url="https://isdisneyworldopenyet.com" quote="Is Disney World Open Yet?">
+                            <FacebookShareButton
+                                url="https://isdisneyworldopenyet.com"
+                                quote="Is Disney World Open Yet?"
+                            >
                                 <RiFacebookCircleLine className="mx-1 w-6 h-6 fill-current" />
                             </FacebookShareButton>
                         </div>
@@ -54,13 +61,24 @@ function Info() {
                     <div className="mb-1">
                         This information is only sourced from official Disney announcements made on public channels.
                     </div>
-                    <div className="mb-1 text-sm text-gray-600">
+                    <div className="mb-1 md:text-sm text-xs text-gray-600">
                         This site is not affiliated in any way with the Walt Disney Company or any of its affiliates or
                         subsidiaries.
                     </div>
-                    <div className="text-sm text-gray-600">
-                        I&apos;ll never place advertising on this page, but if you have a few minutes to spare I&apos;d appreciate <a className="underline" href="https://forms.gle/7f6zL8xFzKe5TpEy6" target="_blank" rel="noreferrer">your opinions on planning a Disney trip. <RiClipboardLine className="inline ml-1 w-5 h-5 fill-current" /></a>
+                </div>
+
+                <div className="flex justify-center mb-6 p-3 bg-blue-600 shadow rounded-lg  text-white">
+                    <div className="inline-flex flex-col text-center">
+                        <div className="font-bold md:text-lg text-base">I&apos;d love to learn more about your Disney planning strategy!</div>
+                        <div className="max-w-xl md:block hidden text-sm text-blue-100">I&apos;ll never include external advertising on the page, but I&apos;m hoping to build the best Disney planning tools ever and would really appreciate your help.</div>
+                        <a className="mt-2 p-1 bg-white rounded-lg text-blue-500 font-bold md:text-lg text-sm"
+                            href="https://forms.gle/7f6zL8xFzKe5TpEy6"
+                            target="_blank"
+                            rel="noreferrer">
+                            Fill out the 3 minute Disney Planner survey
+                        </a>
                     </div>
+
                 </div>
                 <SectionHeader name="Theme Parks" />
                 {content.themeParks.map((section, index) => (
