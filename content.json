@@ -323,6 +323,11 @@
               "status": 1
             },
             {
+              "name": "Westward Ho",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Casey's Corner",
               "icon": "food",
               "status": 0
@@ -369,11 +374,6 @@
             },
             {
               "name": "Tortuga Tavern",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Westward Ho",
               "icon": "food",
               "status": 0
             }
@@ -678,7 +678,17 @@
               "status": 1
             },
             {
+              "name": "Dawa Bar",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Dino-Bite Snacks",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Drinkwallah",
               "icon": "food",
               "status": 1
             },
@@ -763,17 +773,7 @@
               "status": 0
             },
             {
-              "name": "Dawa Bar",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Dino Diner",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Drinkwallah",
               "icon": "food",
               "status": 0
             },
@@ -1320,6 +1320,11 @@
               "status": 1
             },
             {
+              "name": "Casablanca Carpets",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "China Kiosk",
               "icon": "shop",
               "status": 1
@@ -1520,11 +1525,6 @@
               "status": 1
             },
             {
-              "name": "Casablanca Carpets",
-              "icon": "shop",
-              "status": 0
-            },
-            {
               "name": "Das Kaufhaus",
               "icon": "shop",
               "status": 0
@@ -1651,6 +1651,11 @@
               "status": 1
             },
             {
+              "name": "Savi's Workshop",
+              "icon": "ride",
+              "status": 1
+            },
+            {
               "name": "Slinky Dog Dash",
               "icon": "ride",
               "status": 1
@@ -1706,11 +1711,6 @@
               "status": 0
             },
             {
-              "name": "Savi's Workshop",
-              "icon": "ride",
-              "status": 0
-            },
-            {
               "name": "Voyage of the Little Mermaid",
               "icon": "ride",
               "status": 0
@@ -1754,6 +1754,11 @@
             },
             {
               "name": "Hollywood & Vine (Reopens 9/25)",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Hollywood Scoops",
               "icon": "food",
               "status": 1
             },
@@ -1833,11 +1838,6 @@
               "status": 0
             },
             {
-              "name": "Hollywood Scoops",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Kat Saka's Kettle",
               "icon": "food",
               "status": 0
@@ -1906,6 +1906,11 @@
             },
             {
               "name": "Droid Depot Store",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "First Order Cargo",
               "icon": "shop",
               "status": 1
             },
@@ -1991,11 +1996,6 @@
             },
             {
               "name": "Disney Studio Store",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "First Order Cargo",
               "icon": "shop",
               "status": 0
             },
@@ -2361,7 +2361,57 @@
           "reopenDate": "2020-09-21 09:00-04:00",
           "icon": "hotel",
           "tag": "nba",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "Beaches Pool Bar & Grill",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Courtyard Pool Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Enchanted Rose",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Grand Floridian Cafe",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Gasparilla Island Grill",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Narcoossee's",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Curiouser Clothiers",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "M. Mouse Mercantile",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Sandy Cove Gifts and Sundries",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         },
         {
           "id": "pvr",
@@ -2860,6 +2910,21 @@
           "content": {
             "Dining": [
               {
+                "name": "Beaches Pool Bar & Grill",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Courtyard Pool Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Enchanted Rose",
+                "icon": "food",
+                "status": 1
+              },
+              {
                 "name": "Grand Floridian Cafe",
                 "icon": "food",
                 "status": 1
@@ -2870,12 +2935,7 @@
                 "status": 1
               },
               {
-                "name": "Enchanted Rose",
-                "icon": "food",
-                "status": 1
-              },
-              {
-                "name": "Beaches Pool Bar & Grill",
+                "name": "Narcoossee's",
                 "icon": "food",
                 "status": 1
               }
