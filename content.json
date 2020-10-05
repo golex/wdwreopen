@@ -258,6 +258,11 @@
               "status": 1
             },
             {
+              "name": "The Friar's Nook",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Gaston's Tavern",
               "icon": "food",
               "status": 1
@@ -354,11 +359,6 @@
             },
             {
               "name": "The Diamond Horseshoe",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "The Friar's Nook",
               "icon": "food",
               "status": 0
             },
@@ -748,6 +748,11 @@
               "status": 1
             },
             {
+              "name": "Thirsty River Bar & Trek Snacks",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Tiffins Restaurant",
               "icon": "food",
               "status": 1
@@ -804,11 +809,6 @@
             },
             {
               "name": "Terra Treats",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Thirsty River Bar & Trek Snacks",
               "icon": "food",
               "status": 0
             },
@@ -1053,6 +1053,11 @@
               "status": 1
             },
             {
+              "name": "Chefs de France",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Choza de Margarita",
               "icon": "food",
               "status": 1
@@ -1104,6 +1109,11 @@
             },
             {
               "name": "Katsura Grill",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Kringla Bakeri Og Kafe",
               "icon": "food",
               "status": 1
             },
@@ -1213,6 +1223,11 @@
               "status": 1
             },
             {
+              "name": "Yorkshire County Fish Shop",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Akershus Royal Banquet Hall",
               "icon": "food",
               "status": 0
@@ -1223,17 +1238,7 @@
               "status": 0
             },
             {
-              "name": "Chefs de France",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Cool Wash",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Kringla Bakeri Og Kafe",
               "icon": "food",
               "status": 0
             },
@@ -1284,11 +1289,6 @@
             },
             {
               "name": "Tutto Italia Ristorante",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Yorkshire County Fish Shop",
               "icon": "food",
               "status": 0
             }
@@ -1621,6 +1621,11 @@
               "status": 1
             },
             {
+              "name": "For the First Time In Forever: A Frozen Sing-Along Celebration",
+              "icon": "ride",
+              "status": 1
+            },
+            {
               "name": "Lightning McQueen's Racing Academy",
               "icon": "ride",
               "status": 1
@@ -1692,11 +1697,6 @@
             },
             {
               "name": "Disney Junior Dance Party!",
-              "icon": "ride",
-              "status": 0
-            },
-            {
-              "name": "For the First Time In Forever: A Frozen Sing-Along Celebration",
               "icon": "ride",
               "status": 0
             },
@@ -2321,7 +2321,7 @@
                 "status": 1
               },
               {
-                "name": "The Sand Bar",
+                "name": "Outer Rim",
                 "icon": "food",
                 "status": 1
               },
@@ -2514,7 +2514,7 @@
                 "status": 1
               },
               {
-                "name": "The Sand Bar",
+                "name": "Outer Rim",
                 "icon": "food",
                 "status": 1
               },
@@ -2627,12 +2627,17 @@
           "content": {
             "Dining": [
               {
-                "name": "Sanaa",
+                "name": "Kidani Breakfast at Sanaa",
                 "icon": "food",
                 "status": 1
               },
               {
-                "name": "Kidani Breakfast at Sanaa",
+                "name": "Maji Pool Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Sanaa",
                 "icon": "food",
                 "status": 1
               },
@@ -2642,7 +2647,7 @@
                 "status": 1
               },
               {
-                "name": "Maji Pool Bar",
+                "name": "Uzima Springs Pool Bar",
                 "icon": "food",
                 "status": 1
               }
