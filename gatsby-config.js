@@ -65,6 +65,20 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-htaccess`,
+    {
+      resolve: `gatsby-plugin-htaccess`,
+      options: {
+        custom: `
+        <IfModule mod_setenvif.c>
+          <IfModule mod_headers.c>
+              <FilesMatch "\.(json)$">
+                  SetEnvIf Origin ":" IS_CORS
+                  Header set Access-Control-Allow-Origin "*" env=IS_CORS
+              </FilesMatch>
+          </IfModule>
+        </IfModule>
+        `
+      }
+    },
   ],
 };
