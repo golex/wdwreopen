@@ -288,6 +288,11 @@
               "status": 1
             },
             {
+              "name": "The Lunching Pad",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Main Street Bakery",
               "icon": "food",
               "status": 1
@@ -353,17 +358,12 @@
               "status": 0
             },
             {
-              "name": "Golden Oak Outpost",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "The Diamond Horseshoe",
               "icon": "food",
               "status": 0
             },
             {
-              "name": "The Lunching Pad",
+              "name": "Golden Oak Outpost",
               "icon": "food",
               "status": 0
             },
@@ -421,6 +421,11 @@
             },
             {
               "name": "Fantasy Faire",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Frontier Trading Post",
               "icon": "shop",
               "status": 1
             },
@@ -556,11 +561,6 @@
             },
             {
               "name": "Prairie Outpost & Supply",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "The Pirates League",
               "icon": "shop",
               "status": 0
             },
@@ -845,12 +845,22 @@
               "status": 1
             },
             {
+              "name": "The Dino Institute Shop",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Discovery Trading Company",
               "icon": "shop",
               "status": 1
             },
             {
               "name": "Garden Gate Gifts & Strollers",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Island Mercantile",
               "icon": "shop",
               "status": 1
             },
@@ -885,11 +895,6 @@
               "status": 1
             },
             {
-              "name": "The Dino Institute Shop",
-              "icon": "shop",
-              "status": 1
-            },
-            {
               "name": "Windtraders",
               "icon": "shop",
               "status": 1
@@ -900,17 +905,17 @@
               "status": 1
             },
             {
+              "name": "Zuri's Sweets Shop",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Boneyard Cart",
               "icon": "shop",
               "status": 0
             },
             {
               "name": "Colors of Mo'ara",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Island Mercantile",
               "icon": "shop",
               "status": 0
             },
@@ -928,11 +933,6 @@
               "name": "Yak & Yeti™ Bhaktapur Market",
               "icon": "shop",
               "status": 0
-            },
-            {
-              "name": "Zuri's Sweets Shop",
-              "icon": "shop",
-              "status": 0
             }
           ]
         }
@@ -947,6 +947,11 @@
           "Attractions": [
             {
               "name": "Awesome Planet",
+              "icon": "ride",
+              "status": 1
+            },
+            {
+              "name": "Beauty and the Beast Sing-Along",
               "icon": "ride",
               "status": 1
             },
@@ -1059,6 +1064,11 @@
             },
             {
               "name": "Choza de Margarita",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Cool Wash",
               "icon": "food",
               "status": 1
             },
@@ -1213,6 +1223,16 @@
               "status": 1
             },
             {
+              "name": "Tutto Gusto Wine Cellar",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Tutto Italia Ristorante",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "UK Beer Cart",
               "icon": "food",
               "status": 1
@@ -1234,11 +1254,6 @@
             },
             {
               "name": "Block & Hans",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Cool Wash",
               "icon": "food",
               "status": 0
             },
@@ -1281,16 +1296,6 @@
               "name": "Tokyo Dining",
               "icon": "food",
               "status": 0
-            },
-            {
-              "name": "Tutto Gusto Wine Cellar",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Tutto Italia Ristorante",
-              "icon": "food",
-              "status": 0
             }
           ],
           "Shopping": [
@@ -1315,6 +1320,11 @@
               "status": 1
             },
             {
+              "name": "The Brass Bazaar",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Canada Cart",
               "icon": "shop",
               "status": 1
@@ -1330,7 +1340,17 @@
               "status": 1
             },
             {
+              "name": "Die Weihnachts Ecke",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Disney Traders",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "The Fjording",
               "icon": "shop",
               "status": 1
             },
@@ -1376,11 +1396,6 @@
             },
             {
               "name": "La Bottega Italiana",
-              "icon": "shop",
-              "status": 1
-            },
-            {
-              "name": "La Gemma Elegante",
               "icon": "shop",
               "status": 1
             },
@@ -1450,6 +1465,11 @@
               "status": 1
             },
             {
+              "name": "The Queen's Table",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Ring Carvers",
               "icon": "shop",
               "status": 1
@@ -1466,11 +1486,6 @@
             },
             {
               "name": "Souvenirs de France",
-              "icon": "shop",
-              "status": 1
-            },
-            {
-              "name": "Sportsman's Shoppe",
               "icon": "shop",
               "status": 1
             },
@@ -1500,17 +1515,7 @@
               "status": 1
             },
             {
-              "name": "The Brass Bazaar",
-              "icon": "shop",
-              "status": 1
-            },
-            {
-              "name": "The Fjording",
-              "icon": "shop",
-              "status": 1
-            },
-            {
-              "name": "The Queen's Table",
+              "name": "Weinkeller",
               "icon": "shop",
               "status": 1
             },
@@ -1525,6 +1530,11 @@
               "status": 1
             },
             {
+              "name": "The Crown & Crest",
+              "icon": "shop",
+              "status": 0
+            },
+            {
               "name": "Das Kaufhaus",
               "icon": "shop",
               "status": 0
@@ -1535,17 +1545,17 @@
               "status": 0
             },
             {
-              "name": "Die Weihnachts Ecke",
-              "icon": "shop",
-              "status": 0
-            },
-            {
               "name": "El Ranchito del Norte",
               "icon": "shop",
               "status": 0
             },
             {
               "name": "Il Bel Cristallo",
+              "icon": "shop",
+              "status": 0
+            },
+            {
+              "name": "La Gemma Elegante",
               "icon": "shop",
               "status": 0
             },
@@ -1570,7 +1580,7 @@
               "status": 0
             },
             {
-              "name": "The Crown & Crest",
+              "name": "Sportsman's Shoppe",
               "icon": "shop",
               "status": 0
             },
@@ -1596,11 +1606,6 @@
             },
             {
               "name": "Wandering Reindeer",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Weinkeller",
               "icon": "shop",
               "status": 0
             }
@@ -1723,6 +1728,11 @@
               "status": 1
             },
             {
+              "name": "ABC Commissary",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Anaheim Produce",
               "icon": "food",
               "status": 1
@@ -1743,17 +1753,17 @@
               "status": 1
             },
             {
+              "name": "Hollywood & Vine",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "The Hollywood Brown Derby",
               "icon": "food",
               "status": 1
             },
             {
               "name": "The Hollywood Brown Derby Lounge",
-              "icon": "food",
-              "status": 1
-            },
-            {
-              "name": "Hollywood & Vine",
               "icon": "food",
               "status": 1
             },
@@ -1811,11 +1821,6 @@
               "name": "The Trolley Car Café",
               "icon": "food",
               "status": 1
-            },
-            {
-              "name": "ABC Commissary",
-              "icon": "food",
-              "status": 0
             },
             {
               "name": "Catalina Eddie's",
@@ -1920,6 +1925,11 @@
               "status": 1
             },
             {
+              "name": "Keystone Clothiers",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Legends of Hollywood",
               "icon": "shop",
               "status": 1
@@ -1970,11 +1980,6 @@
               "status": 1
             },
             {
-              "name": "The Market",
-              "icon": "shop",
-              "status": 1
-            },
-            {
               "name": "Tower Hotel Gifts",
               "icon": "shop",
               "status": 1
@@ -2011,11 +2016,6 @@
             },
             {
               "name": "It's A Wonderful Shop",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Keystone Clothiers",
               "icon": "shop",
               "status": 0
             },
@@ -2111,7 +2111,26 @@
           "title": "Disney's Art of Animation Resort",
           "reopenDate": "2020-11-01 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+            {
+              "name": "The Drop Off Pool Bar",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Landscape of Flavors",
+              "icon": "food",
+              "status": 1
+            }
+          ],
+          "Shopping": [
+            {
+              "name": "Ink & Paint Shop",
+              "icon": "shop",
+              "status": 1
+            }
+          ]}
         },
         {
           "id": "pop",
@@ -2217,7 +2236,41 @@
           "reopenDate": "2020-10-14 09:00-04:00",
           "icon": "hotel",
           "tag": "nba",
-          "content": {}
+          "content": {
+            "Dining": [
+            {
+              "name": "Barcelona Lounge",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Dahlia Lounge",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Rix Sports Bar & Grill",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Siestas Cantina",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Three Bridges Bar & Grill",
+              "icon": "food",
+              "status": 1
+            }
+          ],
+          "Shopping": [
+            {
+              "name": "Panchito’s Gifts and Sundries",
+              "icon": "shop",
+              "status": 1
+            }
+          ]}
         },
         {
           "id": "pofq",
@@ -2395,6 +2448,11 @@
               }
             ],
             "Shopping": [
+              {
+                "name": "Basin White",
+                "icon": "shop",
+                "status": 1
+              },
               {
                 "name": "Curiouser Clothiers",
                 "icon": "shop",
@@ -2946,6 +3004,11 @@
               }
             ],
             "Shopping": [
+              {
+                "name": "Basin White",
+                "icon": "shop",
+                "status": 1
+              },
               {
                 "name": "Curiouser Clothiers",
                 "icon": "shop",
