@@ -9,7 +9,7 @@ function CountdownLabel({targetTime}) {
     const isOver =  currentTime.isAfter(targetTime);
     const diff = targetTime - currentTime;
     var duration = moment.duration(targetTime.diff(currentTime));
-    if(targetTime.isValid() && !isOver && targetTime.year() === 2020) {
+    if(targetTime.isValid() && !isOver && targetTime.year() === 2021) {
         const targetDateString = targetTime.format("MMMM Do");
         var monthsLeft = duration.months();
         var monthsLeftString = '';

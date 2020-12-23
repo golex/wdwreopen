@@ -33,6 +33,11 @@
               "status": 3
             },
             {
+              "name": "Park Hopping",
+              "icon": "ticket",
+              "status": 3
+            },
+            {
               "name": "Park Pass Reservations",
               "icon": "calendar",
               "status": 4
@@ -41,28 +46,6 @@
               "name": "Face Coverings",
               "icon": "mask",
               "status": 4
-            }
-          ]
-        }
-      },
-      {
-        "id": "reservations",
-        "title": "Park Pass Reservations",
-        "reopenDate": "",
-        "icon": "calendar",
-        "content": {
-          "Next Available": [
-            {
-              "name": "Next Available Park Pass Reservations",
-              "description": "The following dates indicate the earliest that a Park Pass for the specific park and guest type is available:",
-              "custom":"nextAvailableDate"
-            }
-          ],
-          "Planning": [
-            {
-              "name": "Park Pass Reservation Planning",
-              "description": "This data shows how far in advance the final date of unavailability is for the specific park and guest type. This provides an indication of the ideal number of days in advance to make your reservations:",
-              "custom":"latestUnavailableDate"
             }
           ]
         }
@@ -254,6 +237,11 @@
             },
             {
               "name": "Cosmic Ray's Starlight Cafe",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "The Crystal Palace",
               "icon": "food",
               "status": 1
             },
@@ -1163,6 +1151,16 @@
               "status": 1
             },
             {
+              "name": "Les Vins des Chefs de France",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Lotus Blossom Café",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Popcorn in Canada",
               "icon": "food",
               "status": 1
@@ -1254,11 +1252,6 @@
             },
             {
               "name": "Block & Hans",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Lotus Blossom Café",
               "icon": "food",
               "status": 0
             },
@@ -1753,6 +1746,11 @@
               "status": 1
             },
             {
+              "name": "Epic Eats",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Hollywood & Vine",
               "icon": "food",
               "status": 1
@@ -1778,7 +1776,17 @@
               "status": 1
             },
             {
+              "name": "KRNR The Rock Station",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Mama Melrose's Ristorante Italiano",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Market",
               "icon": "food",
               "status": 1
             },
@@ -1823,6 +1831,11 @@
               "status": 1
             },
             {
+              "name": "Woody's Lunch Box",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Catalina Eddie's",
               "icon": "food",
               "status": 0
@@ -1833,27 +1846,12 @@
               "status": 0
             },
             {
-              "name": "Epic Eats",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Fairfax Fare",
               "icon": "food",
               "status": 0
             },
             {
               "name": "Kat Saka's Kettle",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "KRNR The Rock Station",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Market",
               "icon": "food",
               "status": 0
             },
@@ -1869,11 +1867,6 @@
             },
             {
               "name": "Tune-In Lounge",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Woody's Lunch Box",
               "icon": "food",
               "status": 0
             }
@@ -2060,7 +2053,7 @@
               "status": 1
             },
             {
-              "name": "Blizzard Beach",
+              "name": "Blizzard Beach (Reopens March 7th, 2021)",
               "icon": "map",
               "status": 0
             },
@@ -2088,21 +2081,21 @@
         {
           "id": "asmovies",
           "title": "Disney's All-Star Movies Resort",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2021-03-22 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
         {
           "id": "asmusic",
           "title": "Disney's All-Star Music Resort",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2022-01-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
         {
           "id": "assports",
           "title": "Disney's All-Star Sports Resort",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2022-01-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
@@ -2249,6 +2242,11 @@
               "status": 1
             },
             {
+              "name": "El Mercado de Coronado",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Rix Sports Bar & Grill",
               "icon": "food",
               "status": 1
@@ -2275,14 +2273,14 @@
         {
           "id": "pofq",
           "title": "Disney's Port Orleans Resort - French Quarter",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2022-01-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
         {
           "id": "por",
           "title": "Disney's Port Orleans Resort - Riverside",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2022-01-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
@@ -2328,21 +2326,21 @@
         {
           "id": "akl",
           "title": "Disney's Animal Kingdom Lodge",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2022-01-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
         {
           "id": "bc",
           "title": "Disney's Beach Club Resort",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2021-05-30 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
         {
           "id": "bw",
           "title": "Disney's BoardWalk Inn",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2022-01-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
@@ -2375,6 +2373,11 @@
               },
               {
                 "name": "Outer Rim",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Sand Bar",
                 "icon": "food",
                 "status": 1
               },
@@ -2474,14 +2477,14 @@
         {
           "id": "pvr",
           "title": "Disney's Polynesian Village Resort",
-          "reopenDate": "2021-07-01 09:00-04:00",
+          "reopenDate": "2022-07-01 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
         {
           "id": "wl",
           "title": "Disney's Wilderness Lodge",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2021-06-06 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
@@ -2573,6 +2576,11 @@
               },
               {
                 "name": "Outer Rim",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Sand Bar",
                 "icon": "food",
                 "status": 1
               },
@@ -2673,7 +2681,7 @@
         {
           "id": "akvj",
           "title": "Disney's Animal Kingdom Villas - Jambo House",
-          "reopenDate": "2021-01-01 09:00-04:00",
+          "reopenDate": "2022-01-01 09:00-04:00",
           "icon": "village",
           "content": {}
         },
@@ -2701,11 +2709,6 @@
               },
               {
                 "name": "Sanaa Lounge",
-                "icon": "food",
-                "status": 1
-              },
-              {
-                "name": "Uzima Springs Pool Bar",
                 "icon": "food",
                 "status": 1
               }
@@ -2909,7 +2912,7 @@
                 "status": 1
               },
               {
-                "name": "Topolino’s Terrace (includes modified Character Dining)",
+                "name": "Le Petit Café",
                 "icon": "food",
                 "status": 1
               },
@@ -2919,7 +2922,7 @@
                 "status": 1
               },
               {
-                "name": "Le Petit Café",
+                "name": "Topolino’s Terrace (includes modified Character Dining)",
                 "icon": "food",
                 "status": 1
               }
@@ -2952,6 +2955,11 @@
               },
               {
                 "name": "On the Rocks Pool Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Turf Club Lounge",
                 "icon": "food",
                 "status": 1
               }

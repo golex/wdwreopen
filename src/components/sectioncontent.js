@@ -201,7 +201,7 @@ function renderSectionItemList(items, isOpen) {
                                 <IconPicker name={item.icon} />
                             </td>
                             <td className="p-1 font-medium">{renderItemLabel(item.name)}</td>
-                            {renderItemStatus(statusMappings[item.status].name)}
+                            {renderItemStatus(item.custom ?? statusMappings[item.status].name)}
                         </tr>
                     ))}
                 </tbody>
