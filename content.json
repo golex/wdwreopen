@@ -13,6 +13,11 @@
               "status": 7
             },
             {
+              "name": "Park Hopping",
+              "icon": "ticket",
+              "status": 7
+            },
+            {
               "name": "FastPass+",
               "icon": "door",
               "status": 3
@@ -30,11 +35,6 @@
             {
               "name": "Character Greetings",
               "icon": "mickey",
-              "status": 3
-            },
-            {
-              "name": "Park Hopping",
-              "icon": "ticket",
               "status": 3
             },
             {
@@ -316,6 +316,11 @@
               "status": 1
             },
             {
+              "name": "Tomorrowland Terrace Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Tony's Town Square Restaurant",
               "icon": "food",
               "status": 1
@@ -356,11 +361,6 @@
               "status": 0
             },
             {
-              "name": "Tomorrowland Terrace Restaurant",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Tortuga Tavern",
               "icon": "food",
               "status": 0
@@ -379,6 +379,11 @@
             },
             {
               "name": "Big Al's",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Bonjour! Village Gifts",
               "icon": "shop",
               "status": 1
             },
@@ -498,6 +503,11 @@
               "status": 1
             },
             {
+              "name": "Ursa's Major Minor Mart",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Ye Olde Christmas Shoppe",
               "icon": "shop",
               "status": 1
@@ -514,11 +524,6 @@
             },
             {
               "name": "Big Top Souvenirs",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Bonjour! Village Gifts",
               "icon": "shop",
               "status": 0
             },
@@ -549,11 +554,6 @@
             },
             {
               "name": "Prairie Outpost & Supply",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Ursa's Major Minor Mart",
               "icon": "shop",
               "status": 0
             }
@@ -691,12 +691,22 @@
               "status": 1
             },
             {
+              "name": "Harambe Market",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Isle of Java",
               "icon": "food",
               "status": 1
             },
             {
               "name": "Joffrey’s Coffee & Tea Company",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Mahindi",
               "icon": "food",
               "status": 1
             },
@@ -777,11 +787,6 @@
             },
             {
               "name": "Kusafiri Coffee Shop & Bakery",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Mahindi",
               "icon": "food",
               "status": 0
             },
@@ -1046,6 +1051,11 @@
               "status": 1
             },
             {
+              "name": "Block & Hans",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Chefs de France",
               "icon": "food",
               "status": 1
@@ -1161,6 +1171,11 @@
               "status": 1
             },
             {
+              "name": "Oasis Sweets & Sips",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Popcorn in Canada",
               "icon": "food",
               "status": 1
@@ -1196,17 +1211,17 @@
               "status": 1
             },
             {
+              "name": "Sommerfest",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Spice Road Table",
               "icon": "food",
               "status": 1
             },
             {
               "name": "Sunshine Seasons",
-              "icon": "food",
-              "status": 1
-            },
-            {
-              "name": "Taste of EPCOT International Food & Wine Festival",
               "icon": "food",
               "status": 1
             },
@@ -1251,11 +1266,6 @@
               "status": 0
             },
             {
-              "name": "Block & Hans",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Monsieur Paul",
               "icon": "food",
               "status": 0
@@ -1267,11 +1277,6 @@
             },
             {
               "name": "Restaurant Marrakesh",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Sommerfest",
               "icon": "food",
               "status": 0
             },
@@ -1313,17 +1318,7 @@
               "status": 1
             },
             {
-              "name": "The Brass Bazaar",
-              "icon": "shop",
-              "status": 1
-            },
-            {
               "name": "Canada Cart",
-              "icon": "shop",
-              "status": 1
-            },
-            {
-              "name": "Casablanca Carpets",
               "icon": "shop",
               "status": 1
             },
@@ -1373,12 +1368,17 @@
               "status": 1
             },
             {
+              "name": "Il Bel Cristallo",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "ImageWorks",
               "icon": "shop",
               "status": 1
             },
             {
-              "name": "Karamell Kuche",
+              "name": "Karamell-Küche",
               "icon": "shop",
               "status": 1
             },
@@ -1393,7 +1393,17 @@
               "status": 1
             },
             {
+              "name": "La Gemma Elegante",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "La Princesa de Cristal",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "La Signature",
               "icon": "shop",
               "status": 1
             },
@@ -1413,11 +1423,6 @@
               "status": 1
             },
             {
-              "name": "Marketplace in the Medina",
-              "icon": "shop",
-              "status": 1
-            },
-            {
               "name": "Mexico Indoor Plaza",
               "icon": "shop",
               "status": 1
@@ -1433,7 +1438,7 @@
               "status": 1
             },
             {
-              "name": "Mouse Gear Temporary Location",
+              "name": "Mouse Gear",
               "icon": "shop",
               "status": 1
             },
@@ -1444,6 +1449,11 @@
             },
             {
               "name": "Plaza de los Amigos",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Plume et Palette",
               "icon": "shop",
               "status": 1
             },
@@ -1493,17 +1503,17 @@
               "status": 1
             },
             {
-              "name": "Tangier Traders",
-              "icon": "shop",
-              "status": 1
-            },
-            {
               "name": "Tea Caddy",
               "icon": "shop",
               "status": 1
             },
             {
               "name": "Test Track Simporium",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Village Traders",
               "icon": "shop",
               "status": 1
             },
@@ -1521,6 +1531,16 @@
               "name": "World Traveler",
               "icon": "shop",
               "status": 1
+            },
+            {
+              "name": "The Brass Bazaar",
+              "icon": "shop",
+              "status": 0
+            },
+            {
+              "name": "Casablanca Carpets",
+              "icon": "shop",
+              "status": 0
             },
             {
               "name": "The Crown & Crest",
@@ -1543,22 +1563,12 @@
               "status": 0
             },
             {
-              "name": "Il Bel Cristallo",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "La Gemma Elegante",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "La Signature",
-              "icon": "shop",
-              "status": 0
-            },
-            {
               "name": "La Tienda Encantada",
+              "icon": "shop",
+              "status": 0
+            },
+            {
+              "name": "Marketplace in the Medina",
               "icon": "shop",
               "status": 0
             },
@@ -1568,12 +1578,12 @@
               "status": 0
             },
             {
-              "name": "Plume et Palette",
+              "name": "Sportsman's Shoppe",
               "icon": "shop",
               "status": 0
             },
             {
-              "name": "Sportsman's Shoppe",
+              "name": "Tangier Traders",
               "icon": "shop",
               "status": 0
             },
@@ -1584,11 +1594,6 @@
             },
             {
               "name": "Trading Post",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Village Traders",
               "icon": "shop",
               "status": 0
             },
@@ -1801,11 +1806,6 @@
               "status": 1
             },
             {
-              "name": "Peevy’s Polar Pipeline",
-              "icon": "food",
-              "status": 1
-            },
-            {
               "name": "PizzeRizzo",
               "icon": "food",
               "status": 1
@@ -1913,11 +1913,6 @@
               "status": 1
             },
             {
-              "name": "In Character",
-              "icon": "shop",
-              "status": 1
-            },
-            {
               "name": "Keystone Clothiers",
               "icon": "shop",
               "status": 1
@@ -2003,6 +1998,11 @@
               "status": 0
             },
             {
+              "name": "In Character",
+              "icon": "shop",
+              "status": 0
+            },
+            {
               "name": "Indiana Jones Adventure Outpost",
               "icon": "shop",
               "status": 0
@@ -2043,6 +2043,11 @@
         "content": {
           "Misc": [
             {
+              "name": "Blizzard Beach",
+              "icon": "map",
+              "status": 1
+            },
+            {
               "name": "Golf",
               "icon": "map",
               "status": 1
@@ -2051,11 +2056,6 @@
               "name": "Miniature Golf",
               "icon": "map",
               "status": 1
-            },
-            {
-              "name": "Blizzard Beach (Reopens March 7th, 2021)",
-              "icon": "map",
-              "status": 0
             },
             {
               "name": "ESPN Wide World of Sports Complex",
@@ -2083,7 +2083,26 @@
           "title": "Disney's All-Star Movies Resort",
           "reopenDate": "2021-03-22 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "World Premiere Food Court",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Silver Screen Spirits Pool Bar",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Donald's Double Feature",
+                "icon": "shop",
+                "status": 1
+              }
+            ]}
         },
         {
           "id": "asmusic",
@@ -2367,6 +2386,11 @@
                 "status": 1
               },
               {
+                "name": "Contemporary Grounds",
+                "icon": "food",
+                "status": 1
+              },
+              {
                 "name": "Cove Bar",
                 "icon": "food",
                 "status": 1
@@ -2570,6 +2594,11 @@
                 "status": 1
               },
               {
+                "name": "Contemporary Grounds",
+                "icon": "food",
+                "status": 1
+              },
+              {
                 "name": "Cove Bar",
                 "icon": "food",
                 "status": 1
@@ -2699,6 +2728,11 @@
               },
               {
                 "name": "Maji Pool Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Mara",
                 "icon": "food",
                 "status": 1
               },
