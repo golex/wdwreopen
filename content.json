@@ -18,6 +18,11 @@
               "status": 7
             },
             {
+              "name": "Nighttime Shows",
+              "icon": "firework",
+              "status": 7
+            },
+            {
               "name": "FastPass+",
               "icon": "door",
               "status": 3
@@ -28,23 +33,18 @@
               "status": 3
             },
             {
-              "name": "Parades & Nighttime Shows",
-              "icon": "firework",
-              "status": 3
-            },
-            {
               "name": "Character Greetings",
               "icon": "mickey",
               "status": 3
             },
             {
-              "name": "Park Pass Reservations",
-              "icon": "calendar",
-              "status": 4
+              "name": "Annual Pass Sales",
+              "icon": "ticket",
+              "status": 3
             },
             {
-              "name": "Face Coverings",
-              "icon": "mask",
+              "name": "Park Pass Reservations",
+              "icon": "calendar",
               "status": 4
             }
           ]
@@ -184,6 +184,11 @@
               "status": 1
             },
             {
+              "name": "Tomorrowland Transit Authority Peoplemover",
+              "icon": "ride",
+              "status": 1
+            },
+            {
               "name": "Tom Sawyer Island",
               "icon": "ride",
               "status": 1
@@ -207,11 +212,6 @@
               "name": "Monsters, Inc. Laugh Floor",
               "icon": "ride",
               "status": 0
-            },
-            {
-              "name": "Tomorrowland Transit Authority Peoplemover",
-              "icon": "ride",
-              "status": 0
             }
           ],
           "Dining": [
@@ -227,6 +227,11 @@
             },
             {
               "name": "Be Our Guest Restaurant",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Casey's Corner",
               "icon": "food",
               "status": 1
             },
@@ -252,6 +257,11 @@
             },
             {
               "name": "Gaston's Tavern",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Golden Oak Outpost",
               "icon": "food",
               "status": 1
             },
@@ -331,11 +341,6 @@
               "status": 1
             },
             {
-              "name": "Casey's Corner",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Cheshire Café",
               "icon": "food",
               "status": 0
@@ -352,11 +357,6 @@
             },
             {
               "name": "The Diamond Horseshoe",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Golden Oak Outpost",
               "icon": "food",
               "status": 0
             },
@@ -589,6 +589,11 @@
               "status": 1
             },
             {
+              "name": "Festival of the Lion King",
+              "icon": "ride",
+              "status": 1
+            },
+            {
               "name": "Gorilla Falls Exploration Trail",
               "icon": "ride",
               "status": 1
@@ -644,11 +649,6 @@
               "status": 1
             },
             {
-              "name": "Festival of the Lion King",
-              "icon": "ride",
-              "status": 0
-            },
-            {
               "name": "The Boneyard",
               "icon": "ride",
               "status": 0
@@ -676,7 +676,17 @@
               "status": 1
             },
             {
+              "name": "Dino Diner",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Drinkwallah",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Eight Spoon Café",
               "icon": "food",
               "status": 1
             },
@@ -746,6 +756,11 @@
               "status": 1
             },
             {
+              "name": "Terra Treats",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Thirsty River Bar & Trek Snacks",
               "icon": "food",
               "status": 1
@@ -757,6 +772,11 @@
             },
             {
               "name": "Trilo-Bites",
+              "icon": "food",
+              "status": 1
+            },
+            {
+              "name": "Tusker House Restaurant",
               "icon": "food",
               "status": 1
             },
@@ -776,16 +796,6 @@
               "status": 0
             },
             {
-              "name": "Dino Diner",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Eight Spoon Café",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Kusafiri Coffee Shop & Bakery",
               "icon": "food",
               "status": 0
@@ -797,16 +807,6 @@
             },
             {
               "name": "The Smiling Crocodile",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Terra Treats",
-              "icon": "food",
-              "status": 0
-            },
-            {
-              "name": "Tusker House Restaurant",
               "icon": "food",
               "status": 0
             },
@@ -868,6 +868,11 @@
               "status": 1
             },
             {
+              "name": "Mariya's Souvenirs",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Mombasa Marketplace",
               "icon": "shop",
               "status": 1
@@ -893,6 +898,11 @@
               "status": 1
             },
             {
+              "name": "Yak & Yeti™ Bhaktapur Market",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Ziwani Traders",
               "icon": "shop",
               "status": 1
@@ -913,17 +923,7 @@
               "status": 0
             },
             {
-              "name": "Mariya's Souvenirs",
-              "icon": "shop",
-              "status": 0
-            },
-            {
               "name": "The Outpost Shop",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Yak & Yeti™ Bhaktapur Market",
               "icon": "shop",
               "status": 0
             }
@@ -1029,17 +1029,17 @@
               "status": 1
             },
             {
+              "name": "Voices of Liberty",
+              "icon": "ride",
+              "status": 1
+            },
+            {
               "name": "Walt Disney Imagineering presents the Epcot Experience",
               "icon": "ride",
               "status": 1
             },
             {
               "name": "Turtle Talk with Crush",
-              "icon": "ride",
-              "status": 0
-            },
-            {
-              "name": "Voices of Liberty",
               "icon": "ride",
               "status": 0
             }
@@ -1756,6 +1756,11 @@
               "status": 1
             },
             {
+              "name": "Fairfax Fare",
+              "icon": "food",
+              "status": 1
+            },
+            {
               "name": "Hollywood & Vine",
               "icon": "food",
               "status": 1
@@ -1846,11 +1851,6 @@
               "status": 0
             },
             {
-              "name": "Fairfax Fare",
-              "icon": "food",
-              "status": 0
-            },
-            {
               "name": "Kat Saka's Kettle",
               "icon": "food",
               "status": 0
@@ -1872,6 +1872,11 @@
             }
           ],
           "Shopping": [
+            {
+              "name": "Beverly Sunset Boutique",
+              "icon": "shop",
+              "status": 1
+            },
             {
               "name": "Black Spire Outfitters",
               "icon": "shop",
@@ -1913,6 +1918,16 @@
               "status": 1
             },
             {
+              "name": "Frozen Fractal Gifts",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "In Character",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Keystone Clothiers",
               "icon": "shop",
               "status": 1
@@ -1943,6 +1958,11 @@
               "status": 1
             },
             {
+              "name": "Resistance Supply",
+              "icon": "shop",
+              "status": 1
+            },
+            {
               "name": "Rock Around The Shop",
               "icon": "shop",
               "status": 1
@@ -1959,6 +1979,11 @@
             },
             {
               "name": "Strollers & Wheelchairs",
+              "icon": "shop",
+              "status": 1
+            },
+            {
+              "name": "Sunset Ranch Pins and Souvenirs",
               "icon": "shop",
               "status": 1
             },
@@ -1983,22 +2008,7 @@
               "status": 1
             },
             {
-              "name": "Beverly Sunset Boutique",
-              "icon": "shop",
-              "status": 0
-            },
-            {
               "name": "Disney Studio Store",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Frozen Fractal Gifts",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "In Character",
               "icon": "shop",
               "status": 0
             },
@@ -2014,16 +2024,6 @@
             },
             {
               "name": "Launch Bay Cargo",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Resistance Supply",
-              "icon": "shop",
-              "status": 0
-            },
-            {
-              "name": "Sunset Ranch Pins and Souvenirs",
               "icon": "shop",
               "status": 0
             },
@@ -2107,14 +2107,14 @@
         {
           "id": "asmusic",
           "title": "Disney's All-Star Music Resort",
-          "reopenDate": "2022-01-01 09:00-04:00",
+          "reopenDate": "2021-09-16 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
         {
           "id": "assports",
           "title": "Disney's All-Star Sports Resort",
-          "reopenDate": "2022-01-01 09:00-04:00",
+          "reopenDate": "2021-12-09 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
@@ -2230,7 +2230,7 @@
             {
               "name": "Sebastian's Bistro",
               "icon": "food",
-              "status": 0
+              "status": 1
             }
           ],
           "Shopping": [
@@ -2292,14 +2292,14 @@
         {
           "id": "pofq",
           "title": "Disney's Port Orleans Resort - French Quarter",
-          "reopenDate": "2022-01-01 09:00-04:00",
+          "reopenDate": "2021-10-28 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
         {
           "id": "por",
           "title": "Disney's Port Orleans Resort - Riverside",
-          "reopenDate": "2022-01-01 09:00-04:00",
+          "reopenDate": "2021-10-14 09:00-04:00",
           "icon": "hotel",
           "content": {}
         },
@@ -2345,23 +2345,147 @@
         {
           "id": "akl",
           "title": "Disney's Animal Kingdom Lodge",
-          "reopenDate": "2022-01-01 09:00-04:00",
+          "reopenDate": "2021-08-26 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "Kidani Breakfast at Sanaa",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Maji Pool Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Mara",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Sanaa",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Sanaa Lounge",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Johari Treasures",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         },
         {
           "id": "bc",
           "title": "Disney's Beach Club Resort",
           "reopenDate": "2021-05-30 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "Ale & Compass Lounge",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Ale & Compass Restaurant",
+                "icon": "food",
+                "status": 1
+              },{
+                "name": "Beaches & Cream Soda Shop",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Beach Club Marketplace",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Cape May Cafe",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Hurricane Hanna’s Waterside Bar and Grill (bar only)",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Martha's Vineyard",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Market at Ale & Compass",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Beach Club Marketplace",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "The Market at Ale & Compass",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         },
         {
           "id": "bw",
           "title": "Disney's BoardWalk Inn",
-          "reopenDate": "2022-01-01 09:00-04:00",
+          "reopenDate": "2021-01-01 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "Trattoria al Forno (excludes Character Dining)",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Pizza Window",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "BoardWalk Bakery",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Leaping Horse Libations",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "AbracadaBar",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Screen Door General Store",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         },
         {
           "id": "con",
@@ -2501,16 +2625,81 @@
         {
           "id": "pvr",
           "title": "Disney's Polynesian Village Resort",
-          "reopenDate": "2022-07-01 09:00-04:00",
+          "reopenDate": "2021-07-19 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "Kona Cafe",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Capt. Cook's",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Pineapple Lanai",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Barefoot Pool Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Tambu Lounge",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Moana Mercantile",
+                "icon": "shop",
+                "status": 1
+              },
+              {
+                "name": "Bou-tiki",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         },
         {
           "id": "wl",
           "title": "Disney's Wilderness Lodge",
           "reopenDate": "2021-06-06 09:00-04:00",
           "icon": "hotel",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "Whispering Canyon Cafe",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Roaring Fork",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Geyser Point Bar & Grill",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Wilderness Mercantile",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         },
         {
           "id": "yc",
@@ -2536,6 +2725,11 @@
               },
               {
                 "name": "Beach Club Marketplace",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Cape May Cafe",
                 "icon": "food",
                 "status": 1
               },
@@ -2710,9 +2904,44 @@
         {
           "id": "akvj",
           "title": "Disney's Animal Kingdom Villas - Jambo House",
-          "reopenDate": "2022-01-01 09:00-04:00",
+          "reopenDate": "2021-08-26 09:00-04:00",
           "icon": "village",
-          "content": {}
+          "content": {
+            "Dining": [
+              {
+                "name": "Kidani Breakfast at Sanaa",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Maji Pool Bar",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "The Mara",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Sanaa",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Sanaa Lounge",
+                "icon": "food",
+                "status": 1
+              }
+            ],
+            "Shopping": [
+              {
+                "name": "Johari Treasures",
+                "icon": "shop",
+                "status": 1
+              }
+            ]
+          }
         },
         {
           "id": "akvk",
@@ -2779,6 +3008,11 @@
               },
               {
                 "name": "Beach Club Marketplace",
+                "icon": "food",
+                "status": 1
+              },
+              {
+                "name": "Cape May Cafe",
                 "icon": "food",
                 "status": 1
               },
