@@ -35,6 +35,45 @@ function Info() {
                 <br />
 
                 <div className="bg-white shadow rounded-lg mb-6 p-3 md:text-base text-sm">
+                    <div className="text-5xl font-semibold flex justify-center">Yes.</div>
+                    <div className="-mt-2 mb-10 flex justify-center text-xs text-gray-700">(pretty much)</div>
+                    <div className="mb-6">
+                        I am no longer updating this website since Walt Disney World is pretty much open. All the resort
+                        hotels are accepting guests again, as are the temporarily closed restaurants and shops. For
+                        better or worse, the post-pandemic changes like park reservations and Genie+ are here to stay.
+                    </div>
+                    <div className="mb-1">
+                        I hope this site was helpful during the long reopening, and for the latest information please
+                        visit Disney`s official website:
+                    </div>
+                    <div className="flex justify-center text-blue-600 underline font-semibold">
+                        <a href="https://disneyworld.disney.go.com/experience-updates/">
+                            Walt Disney World Experience Updates
+                        </a>
+                    </div>
+                </div>
+
+                <div className="flex justify-center mb-6 p-3 bg-blue-600 shadow rounded-lg  text-white">
+                    <div className="inline-flex flex-col text-center">
+                        <div className="font-bold md:text-lg text-base">
+                            I&apos;d love to learn more about your Disney planning strategy!
+                        </div>
+                        <div className="max-w-xl md:block hidden text-sm text-blue-100">
+                            I&apos;ll never include external advertising on the page, but I&apos;m hoping to build the
+                            best Disney planning tools ever and would really appreciate your help.
+                        </div>
+                        <a
+                            className="mt-2 p-1 bg-white rounded-lg text-blue-500 font-bold md:text-lg text-sm"
+                            href="https://forms.gle/7f6zL8xFzKe5TpEy6"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Fill out the 3 minute Disney Planner survey
+                        </a>
+                    </div>
+                </div>
+
+                <div className="bg-white shadow rounded-lg mb-6 p-3 md:text-base text-sm">
                     <div className="mb-1 flex justify-between">
                         <div>
                             Last updated <div className="inline-block font-medium">{buildTimestamp}</div>.
@@ -66,20 +105,7 @@ function Info() {
                         subsidiaries.
                     </div>
                 </div>
-
-                <div className="flex justify-center mb-6 p-3 bg-blue-600 shadow rounded-lg  text-white">
-                    <div className="inline-flex flex-col text-center">
-                        <div className="font-bold md:text-lg text-base">I&apos;d love to learn more about your Disney planning strategy!</div>
-                        <div className="max-w-xl md:block hidden text-sm text-blue-100">I&apos;ll never include external advertising on the page, but I&apos;m hoping to build the best Disney planning tools ever and would really appreciate your help.</div>
-                        <a className="mt-2 p-1 bg-white rounded-lg text-blue-500 font-bold md:text-lg text-sm"
-                            href="https://forms.gle/7f6zL8xFzKe5TpEy6"
-                            target="_blank"
-                            rel="noreferrer">
-                            Fill out the 3 minute Disney Planner survey
-                        </a>
-                    </div>
-
-                </div>
+                {/*
                 <SectionHeader name="Theme Parks" />
                 {content.themeParks.map((section, index) => (
                     <SectionCard section={section} key={index} />
@@ -102,8 +128,9 @@ function Info() {
                 ))}
                 <SectionHeader name="" />
                 <SectionCard section={content.references[0]} />
+                */}
             </div>
-            <div className="flex justify-center bg-indigo-200 px-4 py-4">
+            <div className="fixed w-full bottom-0 flex justify-center bg-indigo-200 px-4 py-4">
                 <div>Assembled by Ryan Austin</div>
                 <a href="https://twitter.com/golex" className="flex ml-6 items-center font-medium">
                     <RiTwitterLine className="w-6 h-6" /> <div className="ml-1">@golex</div>
