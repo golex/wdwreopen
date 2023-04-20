@@ -15,7 +15,7 @@
     "gatsby-plugin-offline": "3.2.9",
     "gatsby-plugin-postcss": "2.3.4",
     "gatsby-plugin-react-helmet": "3.3.4",
-    "gatsby-plugin-sharp": "2.6.11",
+    "gatsby-plugin-sharp": "4.25.1",
     "gatsby-plugin-svgr": "^2.0.2",
     "gatsby-source-mongodb": "^2.3.6",
     "moment": "^2.27.0",
